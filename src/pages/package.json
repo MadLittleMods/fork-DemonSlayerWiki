@@ -1,0 +1,20 @@
+{
+  "name": "fork-demonslayerwiki",
+  "version": "1.0.0",
+  "description": "Fun little side project dealing with a mockup wiki from the anime series Kimetsu no Yaiba (Demon Slayer)",
+  "homepage": "https://github.com/MadLittleMods#readme",
+  "bugs": {
+    "url": "https://github.com/MadLittleMods/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MadLittleMods.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

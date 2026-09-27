@@ -2,117 +2,117 @@ const projects = [
     {
         title: "Homepage",
         description: "Home",
-        url: "/../DemonSlayerWiki/index.html"
+        url: "/fork-DemonSlayerWiki/index.html"
     },
     {
         title: "Characters",
         description: "All Characters",
-        url: "/../DemonSlayerWiki/characters.html"
+        url: "/fork-DemonSlayerWiki/characters.html"
     },
     {
         title: "Minor Characters",
         description: "Minor",
-        url: "/../DemonSlayerWiki/Characters/Minor.html"
+        url: "/fork-DemonSlayerWiki/Characters/Minor.html"
     },
     {
         title: "Akito Ubuyashiki",
         description: "Akito",
-        url: "/../DemonSlayerWiki/Characters/Akito_Ubuyashiki/info.html"
+        url: "/fork-DemonSlayerWiki/Characters/Akito_Ubuyashiki/info.html"
     },
     {
         title: "Kagaya Ubuyashiki",
         description: "Kagaya",
-        url: "/../DemonSlayerWiki/Characters/Kagaya_Ubuyashiki/info.html"
+        url: "/fork-DemonSlayerWiki/Characters/Kagaya_Ubuyashiki/info.html"
     },
     {
         title: "Amane Ubuyashiki",
         description: "Amane",
-        url: "/../DemonSlayerWiki/Characters/Amane_Ubuyashiki/info.html"
+        url: "/fork-DemonSlayerWiki/Characters/Amane_Ubuyashiki/info.html"
     },
     {
         title: "Giyu Tomioka",
         description: "Giyu",
-        url: "/../DemonSlayerWiki/Characters/Giyu_Tomioka/info.html"
+        url: "/fork-DemonSlayerWiki/Characters/Giyu_Tomioka/info.html"
     },
     {
         title: "Gyomei Himejima",
         description: "Gyomei",
-        url: "/../DemonSlayerWiki/Characters/Gyomei_Himejima/info.html"
+        url: "/fork-DemonSlayerWiki/Characters/Gyomei_Himejima/info.html"
     },
     {
         title: "Hinaki Ubuyashiki",
         description: "Hinaki",
-        url: "/../DemonSlayerWiki/Characters/Amane_Ubuyashiki/info.html"
+        url: "/fork-DemonSlayerWiki/Characters/Amane_Ubuyashiki/info.html"
     },
     {
         title: "Kanata Ubuyashiki",
         description: "Kanata",
-        url: "/../DemonSlayerWiki/Characters/Kanata_Ubuyashiki/info.html"
+        url: "/fork-DemonSlayerWiki/Characters/Kanata_Ubuyashiki/info.html"
     },
     {
         title: "Kiriya Ubuyashiki",
         description: "Kiriya",
-        url: "/../DemonSlayerWiki/Characters/Kiriya_Ubuyashiki/info.html"
+        url: "/fork-DemonSlayerWiki/Characters/Kiriya_Ubuyashiki/info.html"
     },
     {
         title: "Kuina Ubuyashiki",
         description: "Kuina",
-        url: "/../DemonSlayerWiki/Characters/Kuina_Ubuyashiki/info.html"
+        url: "/fork-DemonSlayerWiki/Characters/Kuina_Ubuyashiki/info.html"
     },
     {
         title: "Mitsuri Kanroji",
         description: "Mitsuri",
-        url: "/../DemonSlayerWiki/Characters/Mitsuri_Kanroji/info.html"
+        url: "/fork-DemonSlayerWiki/Characters/Mitsuri_Kanroji/info.html"
     },
     {
         title: "Nichika Ubuyashiki",
         description: "Nichika",
-        url: "/../DemonSlayerWiki/Characters/Nichika_Ubuyashiki/info.html"
+        url: "/fork-DemonSlayerWiki/Characters/Nichika_Ubuyashiki/info.html"
     },
     {
         title: "Obanai Iguro",
         description: "Obanai",
-        url: "/../DemonSlayerWiki/Characters/Obanai_Iguro/info.html"
+        url: "/fork-DemonSlayerWiki/Characters/Obanai_Iguro/info.html"
     },
     {
         title: "Sanemi Shinazugawa",
         description: "Sanemi",
-        url: "/../DemonSlayerWiki/Characters/Sanemi_Shinazugawa/info.html"
+        url: "/fork-DemonSlayerWiki/Characters/Sanemi_Shinazugawa/info.html"
     },
     {
         title: "Senri Ubuyashiki",
         description: "Senri",
-        url: "/../DemonSlayerWiki/Characters/Senri_Ubuyashiki/info.html"
+        url: "/fork-DemonSlayerWiki/Characters/Senri_Ubuyashiki/info.html"
     },
     {
         title: "Muichiro Tokito",
         description: "Muichiro",
-        url: "/../DemonSlayerWiki/Characters/Muichiro_Tokito/info.html"
+        url: "/fork-DemonSlayerWiki/Characters/Muichiro_Tokito/info.html"
     },
     {
         title: "Shinobu Kocho",
         description: "Shinobu",
-        url: "/../DemonSlayerWiki/Characters/Shinobu_Kocho/info.html"
+        url: "/fork-DemonSlayerWiki/Characters/Shinobu_Kocho/info.html"
     },
     {
         title: "Kyojuro Rengoku",
         description: "Kyojuro",
-        url: "/../DemonSlayerWiki/Characters/Kyojuro_Rengoku/info.html"
+        url: "/fork-DemonSlayerWiki/Characters/Kyojuro_Rengoku/info.html"
     },
     {
         title: "Kanae Kocho",
         description: "Kanae",
-        url: "/../DemonSlayerWiki/Characters/Kanae_Kocho/info.html"
+        url: "/fork-DemonSlayerWiki/Characters/Kanae_Kocho/info.html"
     },
     {
         title: "Tengen Uzui",
         description: "Tengen",
-        url: "/../DemonSlayerWiki/Characters/Tengen_Uzui/info.html"
+        url: "/fork-DemonSlayerWiki/Characters/Tengen_Uzui/info.html"
     },
     {
         title: "Sakonji Urokodaki",
         description: "Sakonji",
-        url: "/../DemonSlayerWiki/Characters/Sakonji_Urokodaki/info.html"
+        url: "/fork-DemonSlayerWiki/Characters/Sakonji_Urokodaki/info.html"
     },
 ];
 

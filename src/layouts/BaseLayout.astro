@@ -110,7 +110,100 @@ const { title } = Astro.props.frontmatter || Astro.props;
         <a href="/characters.html">All Characters</a>
       </div>
     </div>
-    <a href="#" class="nav-item">World</a>
+    <div class="world-dropdown">
+      <a href="/characters.html" class="nav-item">World</a>
+      <div class="world-dropdown-content">
+        <div class="ds-world">
+          Story Arcs
+          <div class="ds-world-dropdown-content">
+            <a href="">Unwavering Resolve Arc</a>
+            <a href="">Mugen Train Arc</a>
+            <a href="">Entertainment District Arc</a>
+            <a href="">Swordsmith Village Arc</a>
+            <a href="">Hashira Training Arc</a>
+            <a href="">Final Battle Arc</a>
+            <a href="">Infinity Castle Arc</a>
+            <a href="">Sunrise Countdown Arc</a>
+            <a href="">All Arcs</a>
+          </div>
+        </div>
+        <div class="ds-world">
+          Locations
+          <div class="ds-world-dropdown-content">
+            <a href="">Mount Sagiri</a>
+            <a href="">Mount Fujikasanae</a>
+            <a href="">Asakusa</a>
+            <a href="">Tsuzumi Mansion</a>
+            <a href="">Mount Natagumo</a>
+            <a href="">Butterfly Mansion</a>
+            <a href="">Yoshiwara</a>
+            <a href="">Swordsmith Village</a>
+            <a href="">Infinity Castle</a>
+            <a href="">All Locations</a>
+          </div>
+        </div>
+        <div class="ds-world">
+          Abilities & Techniques
+          <div class="ds-world-dropdown-content">
+            <a href="">Blood Demon Art</a>
+            <a href="">Total Concentration Breathing</a>
+            <a href="">Regeneration</a>
+            <a href="">Demon Slayer Mark</a>
+            <a href="">Bright Red Nichirin Sword</a>
+            <a href="">Transparent World</a>
+            <a href="">Selfless State</a>
+            <a href="">Repetitive Action</a>
+            <a href="">Extrasensory Perception</a>
+            <a href="">Flesh Manipulation</a>
+          </div>
+        </div>
+        <div class="ds-world">
+          Breathing Styles
+          <div class="ds-world-dropdown-content">
+            <a href="">Water Breathing</a>
+            <a href="">Flame Breathing</a>
+            <a href="">Thunder Breathing</a>
+            <a href="">Wind Breathing</a>
+            <a href="">Stone Breathing</a>
+            <a href="">Beast Breathing</a>
+            <a href="">Flower Breathing</a>
+            <a href="">Sun Breathing</a>
+            <a href="">Moon Breathing</a>
+            <a href="">All Breathing Styles</a>
+          </div>
+        </div>
+        <div class="ds-world">
+          Events
+          <div class="ds-world-dropdown-content">
+            <a href="">Battles</a>
+            <a href="">Final Selection</a>
+            <a href="">Lower Ranks Meeting</a>
+            <a href="">Upper Ranks Meeting</a>
+            <a href="">Rehabilitation Training</a>
+            <a href="">Hashira Training</a>
+          </div>
+        </div>
+        <div class="ds-world">
+          Objects
+          <div class="ds-world-dropdown-content-bottom">
+            <a href="">Nichirin Sword</a>
+            <a href="">Wisteria</a>
+            <a href="">Blue Spider Lily</a>
+            <a href="">Yoriichi Type Zero</a>
+            <a href="">Warding Mask</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="nav-item">
+      <form id="search-form" role="search">
+        <label for="search-input">Search Wiki:</label>
+        <input type="text" id="search-input" placeholder="Enter keywords..."
+          aria-label="Search through project content" autocomplete="off">
+        <button id="search-button">Search</button>
+      </form>
+      <div id="search-results"></div>
+    </div>
   </div>
 
   <!-- Overlays (e.g. the lightbox modal) that must sit outside the flex

@@ -124,6 +124,14 @@ html {
     border-right: 1px solid #bbb;
 }
 
+/* Navbar entries whose article hasn't been written yet. Kept in place so the
+   menu still shows the full outline, but muted and not clickable. */
+.navbar .nav-pending {
+    opacity: 0.45;
+    pointer-events: none;
+    cursor: default;
+}
+
 .dropdown {
     font-size: 16px;
     outline: none;

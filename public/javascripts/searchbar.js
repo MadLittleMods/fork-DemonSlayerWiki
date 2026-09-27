@@ -116,6 +116,12 @@ const projects = [
     },
 ];
 
+// The `url` values above are written site-absolute, but the wiki is served
+// from a sub-path on GitHub Pages. `window.__BASE__` (set by BaseLayout) is
+// '/' locally and '/fork-DemonSlayerWiki/' when deployed, so join against it
+// rather than letting the leading slash escape to the domain root.
+const resolveUrl = (url) => window.__BASE__ + url.replace(/^\//, '');
+
 const searchInput = document.getElementById('search-input');
 const searchResults = document.getElementById('search-results');
 const searchButton = document.querySelector('#search-button');
@@ -147,7 +153,7 @@ function displayResults(results) {
     results.forEach(project => {
         const listItem = document.createElement('li');
         const link = document.createElement('a');
-        link.href = project.url;
+        link.href = resolveUrl(project.url);
         link.className = 'link';
         link.textContent = project.title;
         listItem.appendChild(link);
@@ -156,7 +162,7 @@ function displayResults(results) {
             if (e.key = 'Enter') {
                 e.preventDefault();
 
-                window.location.href = project.url;
+                window.location.href = resolveUrl(project.url);
             }
         })
     });

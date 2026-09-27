@@ -9,35 +9,35 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
 
               <div class="mySlides">
                   <div class="numbertext">1 / 8</div>
-                  <img src="/images/Giyu_Sabito_and_Sakonji.webp">
+                  <img src={`${import.meta.env.BASE_URL}images/Giyu_Sabito_and_Sakonji.webp`}>
               </div>
               <div class="mySlides">
                   <div class="numbertext">2 / 8</div>
-                  <img src="/images/Sakonji_receiving_the_letter_from_Giyu.webp">
+                  <img src={`${import.meta.env.BASE_URL}images/Sakonji_receiving_the_letter_from_Giyu.webp`}>
               </div>
               <div class="mySlides">
                   <div class="numbertext">3 / 8</div>
-                  <img src="/images/Tanjiro_runs_after_Sakonji.webp">
+                  <img src={`${import.meta.env.BASE_URL}images/Tanjiro_runs_after_Sakonji.webp`}>
               </div>
               <div class="mySlides">
                   <div class="numbertext">4 / 8</div>
-                  <img src="/images/Sakonji_instructing_Tanjiro_to_split_the_boulder.webp">
+                  <img src={`${import.meta.env.BASE_URL}images/Sakonji_instructing_Tanjiro_to_split_the_boulder.webp`}>
               </div>
               <div class="mySlides">
                   <div class="numbertext">5 / 8</div>
-                  <img src="/images/Sakonji_praising_Tanjiro_for_his_hard_work.webp">
+                  <img src={`${import.meta.env.BASE_URL}images/Sakonji_praising_Tanjiro_for_his_hard_work.webp`}>
               </div>
               <div class="mySlides">
                   <div class="numbertext">6 / 8</div>
-                  <img src="/images/Sakonji_embraces_Tanjiro_and_Nezuko.webp">
+                  <img src={`${import.meta.env.BASE_URL}images/Sakonji_embraces_Tanjiro_and_Nezuko.webp`}>
               </div>
               <div class="mySlides">
                   <div class="numbertext">7 / 8</div>
-                  <img src="/images/Sakonji_watching_over_Nezuko_as_she_sleeps.webp">
+                  <img src={`${import.meta.env.BASE_URL}images/Sakonji_watching_over_Nezuko_as_she_sleeps.webp`}>
               </div>
               <div class="mySlides">
                   <div class="numbertext">8 / 8</div>
-                  <img src="/images/Sakonji_nervous_about_the_outcome_of_the_battle.webp">
+                  <img src={`${import.meta.env.BASE_URL}images/Sakonji_nervous_about_the_outcome_of_the_battle.webp`}>
               </div>
 
               <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -49,35 +49,35 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
 
               <div class="scroll-container">
                   <div class="column" id="Pic1">
-                      <img class="demo cursor" src="/images/Giyu_Sabito_and_Sakonji.webp" onclick="currentSlide(1)"
+                      <img class="demo cursor" src={`${import.meta.env.BASE_URL}images/Giyu_Sabito_and_Sakonji.webp`} onclick="currentSlide(1)"
                           alt="Sakonji with Giyu and Sabito">
                   </div>
                   <div class="column" id="Pic2">
-                      <img class="demo cursor" src="/images/Sakonji_receiving_the_letter_from_Giyu.webp"
+                      <img class="demo cursor" src={`${import.meta.env.BASE_URL}images/Sakonji_receiving_the_letter_from_Giyu.webp`}
                           onclick="currentSlide(2)" alt="Sakonji receiving the letter from Giyu">
                   </div>
                   <div class="column" id="Pic3">
-                      <img class="demo cursor" src="/images/Tanjiro_runs_after_Sakonji.webp" onclick="currentSlide(3)"
+                      <img class="demo cursor" src={`${import.meta.env.BASE_URL}images/Tanjiro_runs_after_Sakonji.webp`} onclick="currentSlide(3)"
                           alt="Tanjiro runs after Sakonji">
                   </div>
                   <div class="column" id="Pic4">
-                      <img class="demo cursor" src="/images/Sakonji_instructing_Tanjiro_to_split_the_boulder.webp"
+                      <img class="demo cursor" src={`${import.meta.env.BASE_URL}images/Sakonji_instructing_Tanjiro_to_split_the_boulder.webp`}
                           onclick="currentSlide(4)" alt="Sakonji instructing Tanjrio to split the boulder">
                   </div>
                   <div class="column" id="Pic5">
-                      <img class="demo cursor" src="/images/Sakonji_praising_Tanjiro_for_his_hard_work.webp"
+                      <img class="demo cursor" src={`${import.meta.env.BASE_URL}images/Sakonji_praising_Tanjiro_for_his_hard_work.webp`}
                           onclick="currentSlide(5)" alt="Sakonji praising Tanjiro for his hard work">
                   </div>
                   <div class="column" id="Pic6">
-                      <img class="demo cursor" src="/images/Sakonji_embraces_Tanjiro_and_Nezuko.webp"
+                      <img class="demo cursor" src={`${import.meta.env.BASE_URL}images/Sakonji_embraces_Tanjiro_and_Nezuko.webp`}
                           onclick="currentSlide(6)" alt="Sakonji embraces Tanjiro and Nezuko">
                   </div>
                   <div class="column" id="Pic7">
-                      <img class="demo cursor" src="/images/Sakonji_watching_over_Nezuko_as_she_sleeps.webp"
+                      <img class="demo cursor" src={`${import.meta.env.BASE_URL}images/Sakonji_watching_over_Nezuko_as_she_sleeps.webp`}
                           onclick="currentSlide(7)" alt="Sakonji watching over Nezuko as she sleeps">
                   </div>
                   <div class="column" id="Pic8">
-                      <img class="demo cursor" src="/images/Sakonji_nervous_about_the_outcome_of_the_battle.webp"
+                      <img class="demo cursor" src={`${import.meta.env.BASE_URL}images/Sakonji_nervous_about_the_outcome_of_the_battle.webp`}
                           onclick="currentSlide(8)" alt="Sakonji nervous about the outcome of the battle">
                   </div>
               </div>
@@ -92,23 +92,23 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
 
             <div class="link-tabs">
                 <div class="link-space">
-                    <a href="/Characters/Sakonji_Urokodaki/info.html" class="link">Info</a>
+                    <a href={`${import.meta.env.BASE_URL}Characters/Sakonji_Urokodaki/info.html`} class="link">Info</a>
                 </div>
                 <div class="link-space current-page">
                     <a href="" class="link">Synopsis</a>
                 </div>
                 <div class="link-space">
-                    <a href="/Characters/Sakonji_Urokodaki/relationships.html" class="link">Relationships</a>
+                    <a href={`${import.meta.env.BASE_URL}Characters/Sakonji_Urokodaki/relationships.html`} class="link">Relationships</a>
                 </div>
                 <div class="link-space">
-                    <a href="/Characters/Sakonji_Urokodaki/image_gallery.html" class="link">Image
+                    <a href={`${import.meta.env.BASE_URL}Characters/Sakonji_Urokodaki/image_gallery.html`} class="link">Image
                         Gallery</a>
                 </div>
             </div>
 
             <h1>Sakonji Urokodaki/Synopsis</h1>
             <p>
-                <<a href="/Characters/Sakonji_Urokodaki/info.html" class="link">SakonJi
+                <<a href={`${import.meta.env.BASE_URL}Characters/Sakonji_Urokodaki/info.html`} class="link">SakonJi
                     Urokodaki</a>
             </p>
 
@@ -191,7 +191,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
             <p>
                 Sakonji was a capable Demon Slayer trained with the style of Water Breathing,
                 and was solely responsible for capturing the
-                <a href="/Characters/Hand_Demon/info.html" class="link" title="Hand Demon">Hand
+                <a href={`${import.meta.env.BASE_URL}Characters/Hand_Demon/info.html`} class="link" title="Hand Demon">Hand
                     Demon</a> and imprisoning him on
                 <a href="" class="link" title="Mount Fujikasanae">Mount Fujikasanae</a>. He would then go on to become
                 the Water
@@ -204,7 +204,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
             <p>
             <figure class="left-side-anime-pic">
                 <a class="contain-img" href="#Pic1">
-                    <img src="/images/Giyu_Sabito_and_Sakonji.webp" class="figure-img zoom contain-img cursor"
+                    <img src={`${import.meta.env.BASE_URL}images/Giyu_Sabito_and_Sakonji.webp`} class="figure-img zoom contain-img cursor"
                         onclick="openModal();currentSlide(1)">
                 </a>
                 <figcaption class="caption">
@@ -215,9 +215,9 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
             <a href="" class="link" title="Final Selection">Final Selection</a> but unfortunately, the vast majority of
             them died
             without ever passing it. Among them, the most notable were
-            <a href="/Characters/Makomo/info.html" class="link" title="Makomo">Makomo</a>
-            <a href="/Characters/Sabito/info.html" class="link" title="Sabito">Sabito</a> and
-            <a href="/Characters/Giyu_Tomioka/info.html" class="link" title="Giyu Tomioka">Giyu
+            <a href={`${import.meta.env.BASE_URL}Characters/Makomo/info.html`} class="link" title="Makomo">Makomo</a>
+            <a href={`${import.meta.env.BASE_URL}Characters/Sabito/info.html`} class="link" title="Sabito">Sabito</a> and
+            <a href={`${import.meta.env.BASE_URL}Characters/Giyu_Tomioka/info.html`} class="link" title="Giyu Tomioka">Giyu
                 Tomioka</a>. The latter two were trained
             together, becoming very close friends during their training, however only
             Giyu survived the Final Selection, becoming the only one of his students
@@ -237,7 +237,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
             <p>
             <figure class="right-side-anime-pic">
                 <a class="contain-img" href="#Pic2">
-                    <img src="/images/Sakonji_receiving_the_letter_from_Giyu.webp"
+                    <img src={`${import.meta.env.BASE_URL}images/Sakonji_receiving_the_letter_from_Giyu.webp`}
                         class="figure-img zoom contain-img cursor" onclick="openModal();currentSlide(2)">
                 </a>
                 <figcaption class="caption">
@@ -245,11 +245,11 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
                 </figcaption>
             </figure>
             Having received a letter from
-            <a href="/Characters/Giyu_Tomioka/info.html" class="link" title="Giyu Tomioka">Giyu
+            <a href={`${import.meta.env.BASE_URL}Characters/Giyu_Tomioka/info.html`} class="link" title="Giyu Tomioka">Giyu
                 Tomioka</a> requesting that he train
-            <a href="/Characters/Tanjiro_Kamado/info.html" class="link" title="Tanjiro Kamado">Tanjiro Kamado</a>,
+            <a href={`${import.meta.env.BASE_URL}Characters/Tanjiro_Kamado/info.html`} class="link" title="Tanjiro Kamado">Tanjiro Kamado</a>,
             explaining the boy and his
-            <a href="/Characters/Nezuko_Kamado/info.html" class="link" title="Nezuko Kamado">sister</a>'s circumstances,
+            <a href={`${import.meta.env.BASE_URL}Characters/Nezuko_Kamado/info.html`} class="link" title="Nezuko Kamado">sister</a>'s circumstances,
             Sakonji set forth from his
             home to find the two.
             <span class="tooltip-anchor" id="Ref1">
@@ -320,7 +320,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
             <p>
             <figure class="left-side-anime-pic">
                 <a class="contain-img" href="#Pic3">
-                    <img src="/images/Tanjiro_runs_after_Sakonji.webp" class="figure-img zoom contain-img cursor"
+                    <img src={`${import.meta.env.BASE_URL}images/Tanjiro_runs_after_Sakonji.webp`} class="figure-img zoom contain-img cursor"
                         onclick="openModal();currentSlide(3)">
                 </a>
                 <figcaption class="caption">
@@ -386,7 +386,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
             <p>
             <figure class="right-side-anime-pic">
                 <a class="contain-img" href="#Pic4">
-                    <img src="/images/Sakonji_instructing_Tanjiro_to_split_the_boulder.webp"
+                    <img src={`${import.meta.env.BASE_URL}images/Sakonji_instructing_Tanjiro_to_split_the_boulder.webp`}
                         class="figure-img zoom contain-img cursor" onclick="openModal();currentSlide(4)">
                 </a>
                 <figcaption class="caption">
@@ -416,7 +416,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
             <p>
             <figure class="left-side-anime-pic">
                 <a class="contain-img" href="#Pic5">
-                    <img src="/images/Sakonji_praising_Tanjiro_for_his_hard_work.webp"
+                    <img src={`${import.meta.env.BASE_URL}images/Sakonji_praising_Tanjiro_for_his_hard_work.webp`}
                         class="figure-img zoom contain-img cursor" onclick="openModal();currentSlide(5)">
                 </a>
                 <figcaption class="caption">
@@ -453,9 +453,9 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
                 </sup>
             </span>
             When Tanjiro wishes him farewell, asking that he look after
-            <a href="/Characters/Akito_Ubuyashiki/info.html" class="link" title="Sabito">Sabito</a>
+            <a href={`${import.meta.env.BASE_URL}Characters/Akito_Ubuyashiki/info.html`} class="link" title="Sabito">Sabito</a>
             and
-            <a href="/Characters/Akito_Ubuyashiki/info.html" class="link" title="Makomo">Makomo</a>, Sakonji wonders
+            <a href={`${import.meta.env.BASE_URL}Characters/Akito_Ubuyashiki/info.html`} class="link" title="Makomo">Makomo</a>, Sakonji wonders
             aloud how the boy knew the
             names of his two dead apprentices.
             <span class="tooltip-anchor" id="Ref11">
@@ -473,7 +473,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
             <p>
             <figure class="right-side-anime-pic">
                 <a class="contain-img" href="#Pic6">
-                    <img src="/images/Sakonji_embraces_Tanjiro_and_Nezuko.webp"
+                    <img src={`${import.meta.env.BASE_URL}images/Sakonji_embraces_Tanjiro_and_Nezuko.webp`}
                         class="figure-img zoom contain-img cursor" onclick="openModal();currentSlide(6)">
                 </a>
                 <figcaption class="caption">
@@ -483,7 +483,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
             After Tanjiro returns from Final Selection, Sakonji and Nezuko embrace
             him, the old trainer weeping tears of joy over the long-awaited return
             of a student of his. Fifteen days after this,
-            <a href="/Characters/Haganezuka/info.html" class="link" title="Haganezuka">Haganezuka</a> arrives with
+            <a href={`${import.meta.env.BASE_URL}Characters/Haganezuka/info.html`} class="link" title="Haganezuka">Haganezuka</a> arrives with
             Tanjiro's new
             <a href="" class="link" title="Nichirin Sword">sword</a>, but ignores the youth's attempts at hospitatlity,
             prompting
@@ -547,7 +547,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
                 </span>
                 and the sole demon responsible for the creation of all other and the likely
                 murderer of Tanjiro's family,
-                <a href="/Characters/Muzan_Kibutsuji/info.html" class="link" title="Muzan Kibutsuji">Muzan
+                <a href={`${import.meta.env.BASE_URL}Characters/Muzan_Kibutsuji/info.html`} class="link" title="Muzan Kibutsuji">Muzan
                     Kibutsuji</a>.
                 <span class="tooltip-anchor" id="Ref16">
                     <sup class="tooltip">
@@ -571,13 +571,13 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
             <p>
                 After Nezuko's existence was discovered by the
                 <a href="" class="link" title="Demon Slayer Corps">Demon Slayer Corps</a>, Sakonji sends a letter to
-                <a href="/Characters/Kagaya_Ubuyashiki/info.html" class="link" title="Kagaya Ubuyashiki">Kagaya
+                <a href={`${import.meta.env.BASE_URL}Characters/Kagaya_Ubuyashiki/info.html`} class="link" title="Kagaya Ubuyashiki">Kagaya
                     Ubuyashiki</a>. In it, he requested
-                <a href="/Characters/Tanjiro_Kamado/info.html" class="link" title="Tanjiro Kamado">Tanjiro Kamado</a> be
+                <a href={`${import.meta.env.BASE_URL}Characters/Tanjiro_Kamado/info.html`} class="link" title="Tanjiro Kamado">Tanjiro Kamado</a> be
                 forgiven for harboring
                 a demon and explained Nezuko's unique circumstances. He further wrote that
                 if Nezuko were to ever kill a human, he, Tanjiro and
-                <a href="/Characters/Giyu_Tomioka/info.html" class="link" title="Giyu Tomioka">Giyu</a> will all commit
+                <a href={`${import.meta.env.BASE_URL}Characters/Giyu_Tomioka/info.html`} class="link" title="Giyu Tomioka">Giyu</a> will all commit
                 <a href="https://en.wikipedia.org/wiki/Seppuku" class="link" title="">seppuku</a> to repent.
                 <span class="tooltip-anchor" id="Ref17">
                     <sup class="tooltip">
@@ -599,7 +599,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
             <p>
             <figure class="right-side-anime-pic">
                 <a class="contain-img" href="#Pic7">
-                    <img src="/images/Sakonji_watching_over_Nezuko_as_she_sleeps.webp"
+                    <img src={`${import.meta.env.BASE_URL}images/Sakonji_watching_over_Nezuko_as_she_sleeps.webp`}
                         class="figure-img zoom contain-img cursor" onclick="openModal();currentSlide(7)">
                 </a>
                 <figcaption class="caption">
@@ -607,7 +607,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
                 </figcaption>
             </figure>
             During Hashira Training, after Tanjiro had finished training with
-            <a href="/Characters/Muichiro_Tokito/info.html" class="link" title="Muichiro Tokito">Muichiro Tokito</a>,
+            <a href={`${import.meta.env.BASE_URL}Characters/Muichiro_Tokito/info.html`} class="link" title="Muichiro Tokito">Muichiro Tokito</a>,
             the Hashira noted his
             optimistic attitude for the future and asked him why he was so confident
             in Nezuko being safe. Tanjiro remarked he was assured that Nezuko would
@@ -630,7 +630,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
             <p>
             <figure class="right-side-anime-pic">
                 <a class="contain-img" href="#Pic8">
-                    <img src="/images/Sakonji_nervous_about_the_outcome_of_the_battle.webp"
+                    <img src={`${import.meta.env.BASE_URL}images/Sakonji_nervous_about_the_outcome_of_the_battle.webp`}
                         class="figure-img zoom contain-img cursor" onclick="openModal();currentSlide(8)">
                 </a>
                 <figcaption class="caption">
@@ -827,7 +827,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
                         <th class="nav-table-header">
                             <aside>[<a href="#" class="link" id="nav-table-btn">show</a>]</aside>
                             <div class="nav-table-char">
-                                <a href="/characters.html">Characters</a>
+                                <a href={`${import.meta.env.BASE_URL}characters.html`}>Characters</a>
                             </div>
                         </th>
                     </tr>
@@ -845,23 +845,23 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
                                             <b>Ubuyashiki Family:</b>
                                         </td>
                                         <td class="nav-table-section-right">
-                                            <a href="/Characters/Kagaya_Ubuyashiki/info.html" class="link">Amane
+                                            <a href={`${import.meta.env.BASE_URL}Characters/Kagaya_Ubuyashiki/info.html`} class="link">Amane
                                                 Ubuyashiki</a>&nbsp;·
-                                            <a href="/Characters/Amane_Ubuyashiki/info.html" class="link">Amane
+                                            <a href={`${import.meta.env.BASE_URL}Characters/Amane_Ubuyashiki/info.html`} class="link">Amane
                                                 Ubuyashiki</a>&nbsp;·
-                                            <a href="/Characters/Hinaki_Ubuyashiki/info.html" class="link">Hinaki
+                                            <a href={`${import.meta.env.BASE_URL}Characters/Hinaki_Ubuyashiki/info.html`} class="link">Hinaki
                                                 Ubuyashiki</a>&nbsp;·
-                                            <a href="/Characters/Nichika_Ubuyashiki/info.html" class="link">Nichika
+                                            <a href={`${import.meta.env.BASE_URL}Characters/Nichika_Ubuyashiki/info.html`} class="link">Nichika
                                                 Ubuyashiki</a>&nbsp;·
-                                            <a href="/Characters/Kiriya_Ubuyashiki/info.html" class="link">Kiriya
+                                            <a href={`${import.meta.env.BASE_URL}Characters/Kiriya_Ubuyashiki/info.html`} class="link">Kiriya
                                                 Ubuyashiki</a>&nbsp;·
-                                            <a href="/Characters/Kuina_Ubuyashiki/info.html" class="link">Kuina
+                                            <a href={`${import.meta.env.BASE_URL}Characters/Kuina_Ubuyashiki/info.html`} class="link">Kuina
                                                 Ubuyashiki</a>&nbsp;·
-                                            <a href="/Characters/Kanata_Ubuyashiki/info.html" class="link">Kanata
+                                            <a href={`${import.meta.env.BASE_URL}Characters/Kanata_Ubuyashiki/info.html`} class="link">Kanata
                                                 Ubuyashiki</a>&nbsp;·
-                                            <a href="/Characters/Senri_Ubuyashiki/info.html" class="link">Senri
+                                            <a href={`${import.meta.env.BASE_URL}Characters/Senri_Ubuyashiki/info.html`} class="link">Senri
                                                 Ubuyashiki</a>&nbsp;·
-                                            <a href="/Characters/Akito_Ubuyashiki/info.html" class="link">Akito
+                                            <a href={`${import.meta.env.BASE_URL}Characters/Akito_Ubuyashiki/info.html`} class="link">Akito
                                                 Ubuyashiki</a>
                                         </td>
                                     </tr>
@@ -870,25 +870,25 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
                                             <b>Hashira:</b>
                                         </td>
                                         <td class="nav-table-section-right">
-                                            <a href="/Characters/Giyu_Tomioka/info.html" class="link">Giyu
+                                            <a href={`${import.meta.env.BASE_URL}Characters/Giyu_Tomioka/info.html`} class="link">Giyu
                                                 Tomioka</a>&nbsp;·
-                                            <a href="/Characters/Mitsuri_Kanroji/info.html" class="link">Mitsuri
+                                            <a href={`${import.meta.env.BASE_URL}Characters/Mitsuri_Kanroji/info.html`} class="link">Mitsuri
                                                 Kanroji</a>&nbsp;·
-                                            <a href="/Characters/Obanai_Iguro/info.html" class="link">Obanai
+                                            <a href={`${import.meta.env.BASE_URL}Characters/Obanai_Iguro/info.html`} class="link">Obanai
                                                 Iguro</a>&nbsp;·
-                                            <a href="/Characters/Sanemi_Shinazugawa/info.html" class="link">Sanemi
+                                            <a href={`${import.meta.env.BASE_URL}Characters/Sanemi_Shinazugawa/info.html`} class="link">Sanemi
                                                 Shinazugawa</a>&nbsp;·
-                                            <a href="/Characters/Gyomei_Himejima/info.html" class="link">Gyomei
+                                            <a href={`${import.meta.env.BASE_URL}Characters/Gyomei_Himejima/info.html`} class="link">Gyomei
                                                 Himejima</a>&nbsp;·
-                                            <a href="/Characters/Kyojuro_Rengoku/info.html" class="link">Kyojuro
+                                            <a href={`${import.meta.env.BASE_URL}Characters/Kyojuro_Rengoku/info.html`} class="link">Kyojuro
                                                 Rengoku</a>&nbsp;·
-                                            <a href="/Characters/Tengen_Uzui/info.html" class="link">Tengen
+                                            <a href={`${import.meta.env.BASE_URL}Characters/Tengen_Uzui/info.html`} class="link">Tengen
                                                 Uzui</a>&nbsp;·
-                                            <a href="/Characters/Muichiro_Tokito/info.html" class="link">Muichiro
+                                            <a href={`${import.meta.env.BASE_URL}Characters/Muichiro_Tokito/info.html`} class="link">Muichiro
                                                 Tokito</a>&nbsp;·
-                                            <a href="/Characters/Shinobu_Kocho/info.html" class="link">Shinobu
+                                            <a href={`${import.meta.env.BASE_URL}Characters/Shinobu_Kocho/info.html`} class="link">Shinobu
                                                 Kocho</a>&nbsp;·
-                                            <a href="/Characters/Kanae_Kocho/info.html" class="link">Kanae Kocho</a>·
+                                            <a href={`${import.meta.env.BASE_URL}Characters/Kanae_Kocho/info.html`} class="link">Kanae Kocho</a>·
                                             <span class="nav-table-current">Sakonji Urokodaki</span>&nbsp;·
                                             <a href="jigoro.html" class="link">Jigoro Kuwajima</a>·
                                             <a href="shinjuro.html" class="link">Shinjuro Rengoku</a>
@@ -900,10 +900,10 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
                                         </td>
                                         <td class="nav-table-section-right">
                                             <a href="" class="link">Tanjiro Kamado</a>&nbsp;·
-                                            <a href="/zenitzu.html" class="link">Zenitsu Agatsuma</a>&nbsp;·
-                                            <a href="/inosuke copy.html" class="link">Inosuke Hashibira</a>&nbsp;·
-                                            <a href="/genya.html" class="link">Genya Shinazugawa</a>&nbsp;·
-                                            <a href="/kanao.html" class="link">Kanao Tsuyuri</a>&nbsp;·
+                                            <a href={`${import.meta.env.BASE_URL}zenitzu.html`} class="link">Zenitsu Agatsuma</a>&nbsp;·
+                                            <a href={`${import.meta.env.BASE_URL}inosuke copy.html`} class="link">Inosuke Hashibira</a>&nbsp;·
+                                            <a href={`${import.meta.env.BASE_URL}genya.html`} class="link">Genya Shinazugawa</a>&nbsp;·
+                                            <a href={`${import.meta.env.BASE_URL}kanao.html`} class="link">Kanao Tsuyuri</a>&nbsp;·
                                             <a href="murata.html" class="link">Murata</a>&nbsp;·
                                             <a href="ozaki.html" class="link">Ozaki</a>&nbsp;·
                                             <a href="masachika.html" class="link">Masachika Kumeno</a>&nbsp;·
@@ -966,7 +966,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
                                         </td>
                                         <td class="nav-table-section-right">
                                             <a href="muzan.html" class="link">Muzan Kibutsuji</a>&nbsp;·
-                                            <a href="/nezuko.html" class="link">Nezuko Kamado</a>&nbsp;·
+                                            <a href={`${import.meta.env.BASE_URL}nezuko.html`} class="link">Nezuko Kamado</a>&nbsp;·
                                             <a href="temple_demon.html" class="link">Temple Demon</a>&nbsp;·
                                             <a href="hand_demon.html" class="link">Hand Demon</a>&nbsp;·
                                             <a href="swamp_demon.html" class="link">Swamp Demon</a>&nbsp;·
@@ -1159,6 +1159,6 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
             </table>
         </div>
 
-  <script slot="scripts" src="/javascripts/lightbox_modal.js" is:inline></script>
-  <script slot="scripts" src="/javascripts/character_navigation.js" is:inline></script>
+  <script slot="scripts" src={`${import.meta.env.BASE_URL}javascripts/lightbox_modal.js`} is:inline></script>
+  <script slot="scripts" src={`${import.meta.env.BASE_URL}javascripts/character_navigation.js`} is:inline></script>
 </BaseLayout>

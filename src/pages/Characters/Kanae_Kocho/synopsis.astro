@@ -9,31 +9,31 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
 
               <div class="mySlides">
                   <div class="numbertext">1 / 7</div>
-                  <img src="/images/A_young_Shinobu_with_her_older_sister_Kanae.webp">
+                  <img src={`${import.meta.env.BASE_URL}images/A_young_Shinobu_with_her_older_sister_Kanae.webp`}>
               </div>
               <div class="mySlides">
                   <div class="numbertext">2 / 7</div>
-                  <img src="/images/The_Hashira_expressing_their_disapproval_at_Sanemis_behavior.webp" style="width:70%;">
+                  <img src={`${import.meta.env.BASE_URL}images/The_Hashira_expressing_their_disapproval_at_Sanemis_behavior.webp`} style="width:70%;">
               </div>
               <div class="mySlides">
                   <div class="numbertext">3 / 7</div>
-                  <img src="/images/Shinobu_and_Kanae_taking_Kanao.webp">
+                  <img src={`${import.meta.env.BASE_URL}images/Shinobu_and_Kanae_taking_Kanao.webp`}>
               </div>
               <div class="mySlides">
                   <div class="numbertext">4 / 7</div>
-                  <img src="/images/Doma_mortally_wounds_Kanae.webp">
+                  <img src={`${import.meta.env.BASE_URL}images/Doma_mortally_wounds_Kanae.webp`}>
               </div>
               <div class="mySlides">
                   <div class="numbertext">5 / 7</div>
-                  <img src="/images/Shinobu_with_dying_Kanae.webp">
+                  <img src={`${import.meta.env.BASE_URL}images/Shinobu_with_dying_Kanae.webp`}>
               </div>
               <div class="mySlides">
                   <div class="numbertext">6 / 7</div>
-                  <img src="/images/Kanae_and_Shinobu_are_reunited.webp">
+                  <img src={`${import.meta.env.BASE_URL}images/Kanae_and_Shinobu_are_reunited.webp`}>
               </div>
               <div class="mySlides">
                   <div class="numbertext">7 / 7</div>
-                  <img src="/images/Shinobu_and_Kanao_attends_Kanaes_funeral.webp" style="width: 45%;">
+                  <img src={`${import.meta.env.BASE_URL}images/Shinobu_and_Kanao_attends_Kanaes_funeral.webp`} style="width: 45%;">
               </div>
 
               <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -45,32 +45,32 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
 
               <div class="scroll-container">
                   <div class="column" id="Pic1">
-                      <img class="demo cursor" src="/images/A_young_Shinobu_with_her_older_sister_Kanae.webp"
+                      <img class="demo cursor" src={`${import.meta.env.BASE_URL}images/A_young_Shinobu_with_her_older_sister_Kanae.webp`}
                           onclick="currentSlide(1)" alt="A young Shinobu with her older sister Kanae">
                   </div>
                   <div class="column" id="Pic2">
                       <img class="demo cursor"
-                          src="/images/The_Hashira_expressing_their_disapproval_at_Sanemis_behavior.webp"
+                          src={`${import.meta.env.BASE_URL}images/The_Hashira_expressing_their_disapproval_at_Sanemis_behavior.webp`}
                           onclick="currentSlide(2)" alt="The Hashira expressing their disapproval at Sanemi's behavior">
                   </div>
                   <div class="column" id="Pic3">
-                      <img class="demo cursor" src="/images/Shinobu_and_Kanae_taking_Kanao.webp" onclick="currentSlide(3)"
+                      <img class="demo cursor" src={`${import.meta.env.BASE_URL}images/Shinobu_and_Kanae_taking_Kanao.webp`} onclick="currentSlide(3)"
                           alt="Shinobu and Kanae taking Kanao">
                   </div>
                   <div class="column" id="Pic4">
-                      <img class="demo cursor" src="/images/Doma_mortally_wounds_Kanae.webp" onclick="currentSlide(4)"
+                      <img class="demo cursor" src={`${import.meta.env.BASE_URL}images/Doma_mortally_wounds_Kanae.webp`} onclick="currentSlide(4)"
                           alt="Doma mortally wounds Kanae">
                   </div>
                   <div class="column" id="Pic5">
-                      <img class="demo cursor" src="/images/Shinobu_with_dying_Kanae.webp" onclick="currentSlide(5)"
+                      <img class="demo cursor" src={`${import.meta.env.BASE_URL}images/Shinobu_with_dying_Kanae.webp`} onclick="currentSlide(5)"
                           alt="Shinobu holds a dying Kanae">
                   </div>
                   <div class="column" id="Pic6">
-                      <img class="demo cursor" src="/images/Kanae_and_Shinobu_are_reunited.webp" onclick="currentSlide(6)"
+                      <img class="demo cursor" src={`${import.meta.env.BASE_URL}images/Kanae_and_Shinobu_are_reunited.webp`} onclick="currentSlide(6)"
                           alt="Kanae and Shinobu are reunited in the afterlife">
                   </div>
                   <div class="column" id="Pic7">
-                      <img class="demo cursor" src="/images/Shinobu_and_Kanao_attends_Kanaes_funeral.webp"
+                      <img class="demo cursor" src={`${import.meta.env.BASE_URL}images/Shinobu_and_Kanao_attends_Kanaes_funeral.webp`}
                           onclick="currentSlide(7)" alt="Shinobu and Kanao attend Kanae's funeral">
                   </div>
               </div>
@@ -85,19 +85,19 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
 
             <div class="link-tabs">
                 <div class="link-space">
-                    <a href="/Characters/Kanae_Kocho/info.html" class="link">Info</a>
+                    <a href={`${import.meta.env.BASE_URL}Characters/Kanae_Kocho/info.html`} class="link">Info</a>
                 </div>
                 <div class="link-space current-page">
                     <a href="" class="link">Synopsis</a>
                 </div>
                 <div class="link-space">
-                    <a href="/Characters/Kanae_Kocho/relationships.html" class="link">Relationships</a>
+                    <a href={`${import.meta.env.BASE_URL}Characters/Kanae_Kocho/relationships.html`} class="link">Relationships</a>
                 </div>
             </div>
 
             <h1>Kanae Kocho/Synopsis</h1>
             <p>
-                <<a href="/Characters/Kanae_Kocho/info.html" class="link">Kanae Kocho</a>
+                <<a href={`${import.meta.env.BASE_URL}Characters/Kanae_Kocho/info.html`} class="link">Kanae Kocho</a>
             </p>
 
             <br>
@@ -163,7 +163,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
             <p>
             <figure class="left-side-anime-pic">
                 <a class="contain-img" href="#Pic1">
-                    <img src="/images/A_young_Shinobu_with_her_older_sister_Kanae.webp"
+                    <img src={`${import.meta.env.BASE_URL}images/A_young_Shinobu_with_her_older_sister_Kanae.webp`}
                         class="figure-img zoom contain-img cursor kanae-pic1" onclick="openModal();currentSlide(1)">
                 </a>
                 <figcaption class="caption">
@@ -178,7 +178,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
             However, this all came crashing down when a demon attacked their home. Their
             parents tried to protect the two but were slaughtered before their daughters'
             eyes. They would have been next, but they were saved by the timely arrival of
-            <a href="/Characters/Gyomei_Himejima/info.html" class="link">Gyomei Himejima</a>,
+            <a href={`${import.meta.env.BASE_URL}Characters/Gyomei_Himejima/info.html`} class="link">Gyomei Himejima</a>,
             who killed the demon immediately before it could reach either of them. After
             these traumatic events, the two sisters made a promise to both join the
             <a href="" class="link">Demon Slayer Corps</a>
@@ -240,7 +240,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
             <p>
             <figure class="right-side-anime-pic">
                 <a class="contain-img" href="#Pic2">
-                    <img src="/images/The_Hashira_expressing_their_disapproval_at_Sanemis_behavior.webp"
+                    <img src={`${import.meta.env.BASE_URL}images/The_Hashira_expressing_their_disapproval_at_Sanemis_behavior.webp`}
                         class="figure-img zoom contain-img cursor kanae-pic2" onclick="openModal();currentSlide(2)">
                 </a>
                 <figcaption class="caption">
@@ -256,7 +256,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
             at him with a concerned expression when he rudely confronted their leader,
             saying that he didn't really care what happened to the Demon Slayers. When
             Kagaya mentions
-            <a href="/Characters/Masachika_Kumeno/info.html" class="link">Masachika Kumeno</a>
+            <a href={`${import.meta.env.BASE_URL}Characters/Masachika_Kumeno/info.html`} class="link">Masachika Kumeno</a>
             by name, Kanae informed the surprised Sanemi that Kagaya made a point to
             memorize the names and the backgrounds of each Demon Slayer that died in combat.
             <span class="tooltip-anchor" id="Ref3">
@@ -269,7 +269,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
                 </sup>
             </span>
             After the meeting ended, she joined Gyomei and
-            <a href="/Characters/Tengen_Uzui/info.html" class="link">Tengen</a>, the
+            <a href={`${import.meta.env.BASE_URL}Characters/Tengen_Uzui/info.html`} class="link">Tengen</a>, the
             <a href="" class="link" title="Stone Breathing">Stone</a>
             and <a href="" class="link" title="Sound Breathing">Sound</a>
             Hashira respectively, in scolding Sanemi who sheepishly listened.
@@ -287,7 +287,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
             <p>
             <figure class="left-side-anime-pic">
                 <a class="contain-img" href="#Pic3">
-                    <img src="/images/Shinobu_and_Kanae_taking_Kanao.webp" class="figure-img zoom contain-img cursor"
+                    <img src={`${import.meta.env.BASE_URL}images/Shinobu_and_Kanae_taking_Kanao.webp`} class="figure-img zoom contain-img cursor"
                         onclick="openModal();currentSlide(3)">
                 </a>
                 <figcaption class="caption">
@@ -304,7 +304,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
             girl. They then took her to the
             <a href="" class="link">Butterfly Mansion</a>,
             adopted her, and named her Kanao, a name chosen by
-            <a href="/Characters/Aoi_Kanzaki/info.html" class="link">Aoi Kanzaki</a>,
+            <a href={`${import.meta.env.BASE_URL}Characters/Aoi_Kanzaki/info.html`} class="link">Aoi Kanzaki</a>,
             who already lived there. When the girl proved unresponsive without orders,
             Kanae gave her a coin to flip to help her make decisions until she could make
             decisions on her own.
@@ -313,7 +313,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
             <p>
             <figure class="right-side-anime-pic">
                 <a class="contain-img" href="#Pic4">
-                    <img src="/images/Doma_mortally_wounds_Kanae.webp" class="figure-img zoom contain-img cursor"
+                    <img src={`${import.meta.env.BASE_URL}images/Doma_mortally_wounds_Kanae.webp`} class="figure-img zoom contain-img cursor"
                         onclick="openModal();currentSlide(4)">
                 </a>
                 <figcaption class="caption">
@@ -324,7 +324,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
             </figure>
             Some years later, one night Kanae ran into the Upper Rank Two of the
             <a href="" class="link">Twelve Kizuki</a>,
-            <a href="/Characters/Doma/info.html" class="link">Doma</a>. She was fatally
+            <a href={`${import.meta.env.BASE_URL}Characters/Doma/info.html`} class="link">Doma</a>. She was fatally
             wounded during the encounter as a result of being slashed across her torso by
             his razor-sharp fans, but he was forced to flee from the rising sun before
             he could devour her.
@@ -385,7 +385,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
             <p>
             <figure class="right-side-anime-pic">
                 <a class="contain-img" href="#Pic5">
-                    <img src="/images/Shinobu_with_dying_Kanae.webp" class="figure-img zoom contain-img cursor"
+                    <img src={`${import.meta.env.BASE_URL}images/Shinobu_with_dying_Kanae.webp`} class="figure-img zoom contain-img cursor"
                         onclick="openModal();currentSlide(5)">
                 </a>
                 <figcaption class="caption">
@@ -395,7 +395,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
                 </figcaption>
             </figure>
             During
-            <a href="/Characters/Tanjiro_Kamado/info.html" class="link">Tanjiro Kamado</a>'s
+            <a href={`${import.meta.env.BASE_URL}Characters/Tanjiro_Kamado/info.html`} class="link">Tanjiro Kamado</a>'s
             training to become stronger with
             <a href="" class="link">Rehabilitation Training</a>,
             Shinobu met the boy and one night commended him for his spirit and will to push
@@ -424,7 +424,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
             <p>
             <figure class="left-side-anime-pic">
                 <a class="contain-img" href="#Pic6">
-                    <img src="/images/Kanae_and_Shinobu_are_reunited.webp"
+                    <img src={`${import.meta.env.BASE_URL}images/Kanae_and_Shinobu_are_reunited.webp`}
                         class="figure-img zoom contain-img cursor kanae-pic3" onclick="openModal();currentSlide(6)">
                 </a>
                 <figcaption class="caption">
@@ -469,7 +469,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
                 </sup>
             </span>
             After Doma's death at the hands of Kanao and
-            <a href="/Characters/Inosuke_Hashibira/info.html" class="link">Inosuke Hashibira</a>,
+            <a href={`${import.meta.env.BASE_URL}Characters/Inosuke_Hashibira/info.html`} class="link">Inosuke Hashibira</a>,
             Shinobu and Kanae's spirits gently patten their exhausted adopted sister on the
             head, commending her for doing well.
             </p>
@@ -477,7 +477,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
             <p>
             <figure class="right-side-anime-pic">
                 <a class="contain-img" href="#Pic7">
-                    <img src="/images/Shinobu_and_Kanao_attends_Kanaes_funeral.webp"
+                    <img src={`${import.meta.env.BASE_URL}images/Shinobu_and_Kanao_attends_Kanaes_funeral.webp`}
                         class="figure-img zoom contain-img cursor kanae-pic4" onclick="openModal();currentSlide(7)">
                 </a>
                 <figcaption class="caption">
@@ -625,7 +625,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
                         <th class="nav-table-header">
                             <aside>[<a href="#" class="link" id="nav-table-btn">show</a>]</aside>
                             <div class="nav-table-char">
-                                <a href="/characters.html">Characters</a>
+                                <a href={`${import.meta.env.BASE_URL}characters.html`}>Characters</a>
                             </div>
                         </th>
                     </tr>
@@ -643,23 +643,23 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
                                             <b>Ubuyashiki Family:</b>
                                         </td>
                                         <td class="nav-table-section-right">
-                                            <a href="/Characters/Kagaya_Ubuyashiki/info.html" class="link">Kagaya
+                                            <a href={`${import.meta.env.BASE_URL}Characters/Kagaya_Ubuyashiki/info.html`} class="link">Kagaya
                                                 Ubuyashiki</a>&nbsp;·
-                                            <a href="/Characters/Amane_Ubuyashiki/info.html" class="link">Amane
+                                            <a href={`${import.meta.env.BASE_URL}Characters/Amane_Ubuyashiki/info.html`} class="link">Amane
                                                 Ubuyashiki</a>&nbsp;·
-                                            <a href="/Characters/Hinaki_Ubuyashiki/info.html" class="link">Hinaki
+                                            <a href={`${import.meta.env.BASE_URL}Characters/Hinaki_Ubuyashiki/info.html`} class="link">Hinaki
                                                 Ubuyashiki</a>&nbsp;·
-                                            <a href="/Characters/Nichika_Ubuyashiki/info.html" class="link">Nichika
+                                            <a href={`${import.meta.env.BASE_URL}Characters/Nichika_Ubuyashiki/info.html`} class="link">Nichika
                                                 Ubuyashiki</a>&nbsp;·
-                                            <a href="/Characters/Kiriya_Ubuyashiki/info.html" class="link">Kiriya
+                                            <a href={`${import.meta.env.BASE_URL}Characters/Kiriya_Ubuyashiki/info.html`} class="link">Kiriya
                                                 Ubuyashiki</a>&nbsp;·
-                                            <a href="/Characters/Kuina_Ubuyashiki/info.html" class="link">Kuina
+                                            <a href={`${import.meta.env.BASE_URL}Characters/Kuina_Ubuyashiki/info.html`} class="link">Kuina
                                                 Ubuyashiki</a>&nbsp;·
-                                            <a href="/Characters/Kanata_Ubuyashiki/info.html" class="link">Kanata
+                                            <a href={`${import.meta.env.BASE_URL}Characters/Kanata_Ubuyashiki/info.html`} class="link">Kanata
                                                 Ubuyashiki</a>&nbsp;·
-                                            <a href="/Characters/Senri_Ubuyashiki/info.html" class="link">Senri
+                                            <a href={`${import.meta.env.BASE_URL}Characters/Senri_Ubuyashiki/info.html`} class="link">Senri
                                                 Ubuyashiki</a>&nbsp;·
-                                            <a href="/Characters/Akito_Ubuyashiki/info.html" class="link">Akito
+                                            <a href={`${import.meta.env.BASE_URL}Characters/Akito_Ubuyashiki/info.html`} class="link">Akito
                                                 Ubuyashiki</a>
                                         </td>
                                     </tr>
@@ -668,23 +668,23 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
                                             <b>Hashira:</b>
                                         </td>
                                         <td class="nav-table-section-right">
-                                            <a href="/Characters/Giyu_Tomioka/info.html" class="link">Giyu
+                                            <a href={`${import.meta.env.BASE_URL}Characters/Giyu_Tomioka/info.html`} class="link">Giyu
                                                 Tomioka</a>&nbsp;·
-                                            <a href="/Characters/Mitsuri_Kanroji/info.html" class="link">Mitsuri
+                                            <a href={`${import.meta.env.BASE_URL}Characters/Mitsuri_Kanroji/info.html`} class="link">Mitsuri
                                                 Kanroji</a>&nbsp;·
-                                            <a href="/Characters/Obanai_Iguro/info.html" class="link">Obanai
+                                            <a href={`${import.meta.env.BASE_URL}Characters/Obanai_Iguro/info.html`} class="link">Obanai
                                                 Iguro</a>&nbsp;·
-                                            <a href="/Characters/Sanemi_Shinazugawa/info.html" class="link">Sanemi
+                                            <a href={`${import.meta.env.BASE_URL}Characters/Sanemi_Shinazugawa/info.html`} class="link">Sanemi
                                                 Shinazugawa</a>&nbsp;·
-                                            <a href="/Characters/Gyomei_Himejima/info.html" class="link">Gyomei
+                                            <a href={`${import.meta.env.BASE_URL}Characters/Gyomei_Himejima/info.html`} class="link">Gyomei
                                                 Himejima</a>&nbsp;·
-                                            <a href="/Characters/Kyojuro_Rengoku/info.html" class="link">Kyojuro
+                                            <a href={`${import.meta.env.BASE_URL}Characters/Kyojuro_Rengoku/info.html`} class="link">Kyojuro
                                                 Rengoku</a>&nbsp;·
-                                            <a href="/Characters/Tengen_Uzui/info.html" class="link">Tengen
+                                            <a href={`${import.meta.env.BASE_URL}Characters/Tengen_Uzui/info.html`} class="link">Tengen
                                                 Uzui</a>&nbsp;·
-                                            <a href="/Characters/Muichiro_Tokito/info.html" class="link">Muichiro
+                                            <a href={`${import.meta.env.BASE_URL}Characters/Muichiro_Tokito/info.html`} class="link">Muichiro
                                                 Tokito</a>&nbsp;·
-                                            <a href="/Characters/Shinobu_Kocho/info.html" class="link">Shinobu
+                                            <a href={`${import.meta.env.BASE_URL}Characters/Shinobu_Kocho/info.html`} class="link">Shinobu
                                                 Kocho</a>&nbsp;·
                                             <span class="nav-table-current">Kanae Kocho</span>&nbsp;·
                                             <a href="sakonji.html" class="link">Sakonji Urokodaki</a> ·
@@ -698,10 +698,10 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
                                         </td>
                                         <td class="nav-table-section-right">
                                             <a href="" class="link">Tanjiro Kamado</a>&nbsp;·
-                                            <a href="/zenitzu.html" class="link">Zenitsu Agatsuma</a>&nbsp;·
-                                            <a href="/inosuke copy.html" class="link">Inosuke Hashibira</a>&nbsp;·
-                                            <a href="/genya.html" class="link">Genya Shinazugawa</a>&nbsp;·
-                                            <a href="/kanao.html" class="link">Kanao Tsuyuri</a>&nbsp;·
+                                            <a href={`${import.meta.env.BASE_URL}zenitzu.html`} class="link">Zenitsu Agatsuma</a>&nbsp;·
+                                            <a href={`${import.meta.env.BASE_URL}inosuke copy.html`} class="link">Inosuke Hashibira</a>&nbsp;·
+                                            <a href={`${import.meta.env.BASE_URL}genya.html`} class="link">Genya Shinazugawa</a>&nbsp;·
+                                            <a href={`${import.meta.env.BASE_URL}kanao.html`} class="link">Kanao Tsuyuri</a>&nbsp;·
                                             <a href="murata.html" class="link">Murata</a>&nbsp;·
                                             <a href="ozaki.html" class="link">Ozaki</a>&nbsp;·
                                             <a href="masachika.html" class="link">Masachika Kumeno</a>&nbsp;·
@@ -764,7 +764,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
                                         </td>
                                         <td class="nav-table-section-right">
                                             <a href="muzan.html" class="link">Muzan Kibutsuji</a>&nbsp;·
-                                            <a href="/nezuko.html" class="link">Nezuko Kamado</a>&nbsp;·
+                                            <a href={`${import.meta.env.BASE_URL}nezuko.html`} class="link">Nezuko Kamado</a>&nbsp;·
                                             <a href="temple_demon.html" class="link">Temple Demon</a>&nbsp;·
                                             <a href="hand_demon.html" class="link">Hand Demon</a>&nbsp;·
                                             <a href="swamp_demon.html" class="link">Swamp Demon</a>&nbsp;·
@@ -957,6 +957,6 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
             </table>
         </div>
 
-  <script slot="scripts" src="/javascripts/lightbox_modal.js" is:inline></script>
-  <script slot="scripts" src="/javascripts/character_navigation.js" is:inline></script>
+  <script slot="scripts" src={`${import.meta.env.BASE_URL}javascripts/lightbox_modal.js`} is:inline></script>
+  <script slot="scripts" src={`${import.meta.env.BASE_URL}javascripts/character_navigation.js`} is:inline></script>
 </BaseLayout>

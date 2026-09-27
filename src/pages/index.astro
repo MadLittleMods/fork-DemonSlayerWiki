@@ -25,7 +25,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                                             <tr>
                                                 <td style="padding: 0px;">
                                                     <a href="">
-                                                        <img src="/images/Announcement.webp" alt="Announcement"
+                                                        <img src={`${import.meta.env.BASE_URL}images/Announcement.webp`} alt="Announcement"
                                                             class="IM-thumbnail" decoding="async" loading="lazy">
                                                     </a>
                                                 </td>
@@ -58,7 +58,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                                         <div class="slideshow-container">
                                             <div class="slideshow fade">
                                                 <div class="slideshow-numbertext">1 / 4</div>
-                                                <img src="/images/Manga_Slide.webp" style="width: 100%;">
+                                                <img src={`${import.meta.env.BASE_URL}images/Manga_Slide.webp`} style="width: 100%;">
                                                 <div class="slideshow-captiontext">
                                                     <h3>Manga</h3>
                                                     <p>
@@ -73,7 +73,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                                             </div>
                                             <div class="slideshow fade">
                                                 <div class="slideshow-numbertext">2 / 4</div>
-                                                <img src="/images/Anime_Slide.webp" style="width: 100%;">
+                                                <img src={`${import.meta.env.BASE_URL}images/Anime_Slide.webp`} style="width: 100%;">
                                                 <div class="slideshow-captiontext">
                                                     <h3>Anime</h3>
                                                     <p>
@@ -88,7 +88,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                                             </div>
                                             <div class="slideshow fade">
                                                 <div class="slideshow-numbertext">3 / 4</div>
-                                                <img src="/images/Character_Slide.webp" style="width: 100%;">
+                                                <img src={`${import.meta.env.BASE_URL}images/Character_Slide.webp`} style="width: 100%;">
                                                 <div class="slideshow-captiontext">
                                                     <h3>Characters</h3>
                                                     <p>
@@ -96,14 +96,14 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                                                         characters!!
                                                     </p>
                                                     <p>
-                                                        <a href="/characters.html" class="link">
+                                                        <a href={`${import.meta.env.BASE_URL}characters.html`} class="link">
                                                             Read more ></a>
                                                     </p>
                                                 </div>
                                             </div>
                                             <div class="slideshow fade">
                                                 <div class="slideshow-numbertext">4 / 4</div>
-                                                <img src="/images/Movie_Slide.webp" style="width: 100%;">
+                                                <img src={`${import.meta.env.BASE_URL}images/Movie_Slide.webp`} style="width: 100%;">
                                                 <div class="slideshow-captiontext">
                                                     <h3>The Movie - Infinity Castle</h3>
                                                     <p>
@@ -138,7 +138,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                                             <b>
                                                 <a href="" class="link">MANGA GUIDE</a>
                                                 ■
-                                                <a href="/characters.html" class="link">CHARACTERS</a>
+                                                <a href={`${import.meta.env.BASE_URL}characters.html`} class="link">CHARACTERS</a>
                                                 ■
                                                 <a href="" class="link">STORY LINE</a>
                                                 ■
@@ -163,7 +163,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                                             </div>
                                             <div>
                                                 <a href="" class="link">
-                                                    <img src="/images/Kimetsu_no_yaiba_Logo.webp" decoding="async"
+                                                    <img src={`${import.meta.env.BASE_URL}images/Kimetsu_no_yaiba_Logo.webp`} decoding="async"
                                                         loading="lazy" width="180" height="147">
                                                 </a>
                                             </div>
@@ -191,27 +191,27 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                                             STORY
                                         </span>
                                     </h2>
-                                    <a class="storyleft" href="/Characters/Nezuko_Kamado/info.html" class="link"
+                                    <a class="storyleft" href={`${import.meta.env.BASE_URL}Characters/Nezuko_Kamado/info.html`} class="link"
                                         title="Nezuko Kamado">
-                                        <img src="/images/Nezuko_colored_body.webp" decoding="async" loading="lazy"
+                                        <img src={`${import.meta.env.BASE_URL}images/Nezuko_colored_body.webp`} decoding="async" loading="lazy"
                                             width="165" height="255">
                                     </a>
-                                    <a class="storyright" href="/Characters/Tanjiro_Kamado/info.html" class="link"
+                                    <a class="storyright" href={`${import.meta.env.BASE_URL}Characters/Tanjiro_Kamado/info.html`} class="link"
                                         title="Tanjiro Kamado">
-                                        <img src="/images/Tanjiro_colored_body_2.webp" decoding="async" loading="lazy"
+                                        <img src={`${import.meta.env.BASE_URL}images/Tanjiro_colored_body_2.webp`} decoding="async" loading="lazy"
                                             width="165" height="255">
                                     </a>
                                     <p class="storytext">
                                         In Taisho-era Japan,
-                                        <a href="/Characters/Tanjiro_Kamado/info.html" class="link">
+                                        <a href={`${import.meta.env.BASE_URL}Characters/Tanjiro_Kamado/info.html`} class="link">
                                             Tanjiro Kamado</a>
                                         is a kindhearted boy who makes a living selling charcoal.
                                         However, his peaceful life is shattered when a
-                                        <a href="/Characters/Muzan_Kibutsuji/info.html" class="link"
+                                        <a href={`${import.meta.env.BASE_URL}Characters/Muzan_Kibutsuji/info.html`} class="link"
                                             title="Muzan Kibutsuji">
                                             Demon</a>
                                         slaughters his entire family. His little sister
-                                        <a href="/Characters/Nezuko_Kamado/info.html" class="link">
+                                        <a href={`${import.meta.env.BASE_URL}Characters/Nezuko_Kamado/info.html`} class="link">
                                             Nezuko</a>
                                         is the only survivor, but she has been transformed into
                                         a Demon herself! Tanjiro sets out on a dangerous
@@ -257,40 +257,40 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                                     <div class="animetab" id="anime-characters">
                                         <div class="characterboxborder">
                                             <div class="characterboxsize">
-                                                <a href="/Characters/Tanjiro_Kamado/info.html" title="Tanjiro Kamado">
-                                                    <img src="/images/Tanjiro_Anime_Profile.webp" decoding="async"
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Tanjiro_Kamado/info.html`} title="Tanjiro Kamado">
+                                                    <img src={`${import.meta.env.BASE_URL}images/Tanjiro_Anime_Profile.webp`} decoding="async"
                                                         loading="lazy" width="98" height="98">
                                                 </a>
                                             </div>
                                             <span class="characterboxtitle">
-                                                <a href="/Characters/Tanjiro_Kamado/info.html" title="Tanjiro Kamado">
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Tanjiro_Kamado/info.html`} title="Tanjiro Kamado">
                                                     Tanjiro
                                                 </a>
                                             </span>
                                         </div>
                                         <div class="characterboxborder">
                                             <div class="characterboxsize">
-                                                <a href="/Characters/Nezuko_Kamado/info.html" title="Nezuko Kamado">
-                                                    <img src="/images/Nezuko_Anime_Profile.webp" decoding="async"
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Nezuko_Kamado/info.html`} title="Nezuko Kamado">
+                                                    <img src={`${import.meta.env.BASE_URL}images/Nezuko_Anime_Profile.webp`} decoding="async"
                                                         loading="lazy" width="98" height="98">
                                                 </a>
                                             </div>
                                             <span class="characterboxtitle">
-                                                <a href="/Characters/Nezuko_Kamado/info.html" title="Nezuko Kamado">
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Nezuko_Kamado/info.html`} title="Nezuko Kamado">
                                                     Nezuko
                                                 </a>
                                             </span>
                                         </div>
                                         <div class="characterboxborder">
                                             <div class="characterboxsize">
-                                                <a href="/Characters/Zenitsu_Agatsuma/info.html"
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Zenitsu_Agatsuma/info.html`}
                                                     title="Zenitsu Agatsuma">
-                                                    <img src="/images/Zenitsu_Anime_Profile.webp" decoding="async"
+                                                    <img src={`${import.meta.env.BASE_URL}images/Zenitsu_Anime_Profile.webp`} decoding="async"
                                                         loading="lazy" width="98" height="98">
                                                 </a>
                                             </div>
                                             <span class="characterboxtitle">
-                                                <a href="/Characters/Zenitsu_Agatsuma/info.html"
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Zenitsu_Agatsuma/info.html`}
                                                     title="Zenitsu Agatsuma">
                                                     Zenitsu
                                                 </a>
@@ -298,14 +298,14 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                                         </div>
                                         <div class="characterboxborder">
                                             <div class="characterboxsize">
-                                                <a href="/Characters/Inosuke_Hashibira/info.html"
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Inosuke_Hashibira/info.html`}
                                                     title="Inosuke Hashibira">
-                                                    <img src="/images/Inosuke_Anime_Profile.webp" decoding="async"
+                                                    <img src={`${import.meta.env.BASE_URL}images/Inosuke_Anime_Profile.webp`} decoding="async"
                                                         loading="lazy" width="98" height="98">
                                                 </a>
                                             </div>
                                             <span class="characterboxtitle">
-                                                <a href="/Characters/Inosuke_Hashibira/info.html"
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Inosuke_Hashibira/info.html`}
                                                     title="Inosuke Hashibira">
                                                     Inosuke
                                                 </a>
@@ -313,27 +313,27 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                                         </div>
                                         <div class="characterboxborder">
                                             <div class="characterboxsize">
-                                                <a href="/Characters/Kanao_Tsuyuri/info.html" title="Kanao Tsuyuri">
-                                                    <img src="/images/Kanao_Anime_Profile.webp" decoding="async"
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Kanao_Tsuyuri/info.html`} title="Kanao Tsuyuri">
+                                                    <img src={`${import.meta.env.BASE_URL}images/Kanao_Anime_Profile.webp`} decoding="async"
                                                         loading="lazy" width="98" height="98">
                                                 </a>
                                             </div>
                                             <span class="characterboxtitle">
-                                                <a href="/Characters/Kanao_Tsuyuri/info.html" title="Kanao Tsuyuri">
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Kanao_Tsuyuri/info.html`} title="Kanao Tsuyuri">
                                                     Kanao
                                                 </a>
                                             </span>
                                         </div>
                                         <div class="characterboxborder">
                                             <div class="characterboxsize">
-                                                <a href="/Characters/Genya_Shinazugawa/info.html"
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Genya_Shinazugawa/info.html`}
                                                     title="Genya Shinazugawa">
-                                                    <img src="/images/Genya_Anime_Profile.webp" decoding="async"
+                                                    <img src={`${import.meta.env.BASE_URL}images/Genya_Anime_Profile.webp`} decoding="async"
                                                         loading="lazy" width="98" height="98">
                                                 </a>
                                             </div>
                                             <span class="characterboxtitle">
-                                                <a href="/Characters/Genya_Shinazugawa/info.html"
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Genya_Shinazugawa/info.html`}
                                                     title="Genya Shinazugawa">
                                                     Genya
                                                 </a>
@@ -341,92 +341,92 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                                         </div>
                                         <div class="characterboxborder">
                                             <div class="characterboxsize">
-                                                <a href="/Characters/Giyu_Tomioka/info.html" title="Giyu Tomioka">
-                                                    <img src="/images/Giyu_Anime_Profile.webp" decoding="async"
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Giyu_Tomioka/info.html`} title="Giyu Tomioka">
+                                                    <img src={`${import.meta.env.BASE_URL}images/Giyu_Anime_Profile.webp`} decoding="async"
                                                         loading="lazy" width="98" height="98">
                                                 </a>
                                             </div>
                                             <span class="characterboxtitle">
-                                                <a href="/Characters/Giyu_Tomioka/info.html" title="Giyu Tomioka">
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Giyu_Tomioka/info.html`} title="Giyu Tomioka">
                                                     Giyu
                                                 </a>
                                             </span>
                                         </div>
                                         <div class="characterboxborder">
                                             <div class="characterboxsize">
-                                                <a href="/Characters/Shinobu_Kocho/info.html" title="Shinobu Kocho">
-                                                    <img src="/images/Shinobu_Anime_Profile.webp" decoding="async"
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Shinobu_Kocho/info.html`} title="Shinobu Kocho">
+                                                    <img src={`${import.meta.env.BASE_URL}images/Shinobu_Anime_Profile.webp`} decoding="async"
                                                         loading="lazy" width="98" height="98">
                                                 </a>
                                             </div>
                                             <span class="characterboxtitle">
-                                                <a href="/Characters/Shinobu_Kocho/info.html" title="Shinobu Kocho">
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Shinobu_Kocho/info.html`} title="Shinobu Kocho">
                                                     Shinobu
                                                 </a>
                                             </span>
                                         </div>
                                         <div class="characterboxborder">
                                             <div class="characterboxsize">
-                                                <a href="/Characters/Muichiro_Tokito/info.html" title="Muichiro Tokito">
-                                                    <img src="/images/Muichiro_Anime_Profile.webp" decoding="async"
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Muichiro_Tokito/info.html`} title="Muichiro Tokito">
+                                                    <img src={`${import.meta.env.BASE_URL}images/Muichiro_Anime_Profile.webp`} decoding="async"
                                                         loading="lazy" width="98" height="98">
                                                 </a>
                                             </div>
                                             <span class="characterboxtitle">
-                                                <a href="/Characters/Muichiro_Tokito/info.html" title="Muichiro Tokito">
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Muichiro_Tokito/info.html`} title="Muichiro Tokito">
                                                     Muichiro
                                                 </a>
                                             </span>
                                         </div>
                                         <div class="characterboxborder">
                                             <div class="characterboxsize">
-                                                <a href="/Characters/Mitsuri_Kanroji/info.html" title="Mitsuri Kanroji">
-                                                    <img src="/images/Mitsuri_Anime_Profile.webp" decoding="async"
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Mitsuri_Kanroji/info.html`} title="Mitsuri Kanroji">
+                                                    <img src={`${import.meta.env.BASE_URL}images/Mitsuri_Anime_Profile.webp`} decoding="async"
                                                         loading="lazy" width="98" height="98">
                                                 </a>
                                             </div>
                                             <span class="characterboxtitle">
-                                                <a href="/Characters/Mitsuri_Kanroji/info.html" title="Mitsuri Kanroji">
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Mitsuri_Kanroji/info.html`} title="Mitsuri Kanroji">
                                                     Mitsuri
                                                 </a>
                                             </span>
                                         </div>
                                         <div class="characterboxborder">
                                             <div class="characterboxsize">
-                                                <a href="/Characters/Obanai_Iguro/info.html" title="Obanai Iguro">
-                                                    <img src="/images/Obanai_Anime_Profile.webp" decoding="async"
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Obanai_Iguro/info.html`} title="Obanai Iguro">
+                                                    <img src={`${import.meta.env.BASE_URL}images/Obanai_Anime_Profile.webp`} decoding="async"
                                                         loading="lazy" width="98" height="98">
                                                 </a>
                                             </div>
                                             <span class="characterboxtitle">
-                                                <a href="/Characters/Obanai_Iguro/info.html" title="Obanai Iguro">
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Obanai_Iguro/info.html`} title="Obanai Iguro">
                                                     Obanai
                                                 </a>
                                             </span>
                                         </div>
                                         <div class="characterboxborder">
                                             <div class="characterboxsize">
-                                                <a href="/Characters/Gyomei_Himejima/info.html" title="Gyomei Himejima">
-                                                    <img src="/images/Gyomei_Anime_Profile.webp" decoding="async"
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Gyomei_Himejima/info.html`} title="Gyomei Himejima">
+                                                    <img src={`${import.meta.env.BASE_URL}images/Gyomei_Anime_Profile.webp`} decoding="async"
                                                         loading="lazy" width="98" height="98">
                                                 </a>
                                             </div>
                                             <span class="characterboxtitle">
-                                                <a href="/Characters/Gyomei_Himejima/info.html" title="Gyomei Himejima">
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Gyomei_Himejima/info.html`} title="Gyomei Himejima">
                                                     Gyomei
                                                 </a>
                                             </span>
                                         </div>
                                         <div class="characterboxborder">
                                             <div class="characterboxsize">
-                                                <a href="/Characters/Sanemi_Shinazugawa/info.html"
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Sanemi_Shinazugawa/info.html`}
                                                     title="Sanemi Shinazugawa">
-                                                    <img src="/images/Sanemi_Anime_Profile.webp" decoding="async"
+                                                    <img src={`${import.meta.env.BASE_URL}images/Sanemi_Anime_Profile.webp`} decoding="async"
                                                         loading="lazy" width="98" height="98">
                                                 </a>
                                             </div>
                                             <span class="characterboxtitle">
-                                                <a href="/Characters/Sanemi_Shinazugawa/info.html"
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Sanemi_Shinazugawa/info.html`}
                                                     title="Sanemi Shinazugawa">
                                                     Sanemi
                                                 </a>
@@ -434,131 +434,131 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                                         </div>
                                         <div class="characterboxborder">
                                             <div class="characterboxsize">
-                                                <a href="/Characters/Tamayo/info.html" title="Tamayo">
-                                                    <img src="/images/Tamayo_Anime_Profile.webp" decoding="async"
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Tamayo/info.html`} title="Tamayo">
+                                                    <img src={`${import.meta.env.BASE_URL}images/Tamayo_Anime_Profile.webp`} decoding="async"
                                                         loading="lazy" width="98" height="98">
                                                 </a>
                                             </div>
                                             <span class="characterboxtitle">
-                                                <a href="/Characters/Tamayo/info.html" title="Tamayo">
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Tamayo/info.html`} title="Tamayo">
                                                     Tamayo
                                                 </a>
                                             </span>
                                         </div>
                                         <div class="characterboxborder">
                                             <div class="characterboxsize">
-                                                <a href="/Characters/Yushiro/info.html" title="Yushiro">
-                                                    <img src="/images/Yushiro_Anime_Profile.webp" decoding="async"
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Yushiro/info.html`} title="Yushiro">
+                                                    <img src={`${import.meta.env.BASE_URL}images/Yushiro_Anime_Profile.webp`} decoding="async"
                                                         loading="lazy" width="98" height="98">
                                                 </a>
                                             </div>
                                             <span class="characterboxtitle">
-                                                <a href="/Characters/Yushiro/info.html" title="Yushiro">
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Yushiro/info.html`} title="Yushiro">
                                                     Yushiro
                                                 </a>
                                             </span>
                                         </div>
                                         <div class="characterboxborder">
                                             <div class="characterboxsize">
-                                                <a href="/Characters/Muzan_Kibutsuji/info.html" title="Muzan Kibutsuji">
-                                                    <img src="/images/Muzan_Anime_Profile.webp" decoding="async"
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Muzan_Kibutsuji/info.html`} title="Muzan Kibutsuji">
+                                                    <img src={`${import.meta.env.BASE_URL}images/Muzan_Anime_Profile.webp`} decoding="async"
                                                         loading="lazy" width="98" height="98">
                                                 </a>
                                             </div>
                                             <span class="characterboxtitle">
-                                                <a href="/Characters/Muzan_Kibutsuji/info.html" title="Muzan Kibutsuji">
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Muzan_Kibutsuji/info.html`} title="Muzan Kibutsuji">
                                                     Muzan
                                                 </a>
                                             </span>
                                         </div>
                                         <div class="characterboxborder">
                                             <div class="characterboxsize">
-                                                <a href="/Characters/Akaza/info.html" title="Akaza">
-                                                    <img src="/images/Akaza_Anime_Profile.webp" decoding="async"
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Akaza/info.html`} title="Akaza">
+                                                    <img src={`${import.meta.env.BASE_URL}images/Akaza_Anime_Profile.webp`} decoding="async"
                                                         loading="lazy" width="98" height="98">
                                                 </a>
                                             </div>
                                             <span class="characterboxtitle">
-                                                <a href="/Characters/Akaza/info.html" title="Akaza">
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Akaza/info.html`} title="Akaza">
                                                     Akaza
                                                 </a>
                                             </span>
                                         </div>
                                         <div class="characterboxborder">
                                             <div class="characterboxsize">
-                                                <a href="/Characters/Doma/info.html" title="Doma">
-                                                    <img src="/images/Doma_Anime_Profile.webp" decoding="async"
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Doma/info.html`} title="Doma">
+                                                    <img src={`${import.meta.env.BASE_URL}images/Doma_Anime_Profile.webp`} decoding="async"
                                                         loading="lazy" width="98" height="98">
                                                 </a>
                                             </div>
                                             <span class="characterboxtitle">
-                                                <a href="/Characters/Doma/info.html" title="Doma">
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Doma/info.html`} title="Doma">
                                                     Doma
                                                 </a>
                                             </span>
                                         </div>
                                         <div class="characterboxborder">
                                             <div class="characterboxsize">
-                                                <a href="/Characters/Kokushibo/info.html" title="Kokushibo">
-                                                    <img src="/images/Kokushibo_Anime_Profile.webp" decoding="async"
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Kokushibo/info.html`} title="Kokushibo">
+                                                    <img src={`${import.meta.env.BASE_URL}images/Kokushibo_Anime_Profile.webp`} decoding="async"
                                                         loading="lazy" width="98" height="98">
                                                 </a>
                                             </div>
                                             <span class="characterboxtitle">
-                                                <a href="/Characters/Kokushibo/info.html" title="Kokushibo">
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Kokushibo/info.html`} title="Kokushibo">
                                                     Kokushibo
                                                 </a>
                                             </span>
                                         </div>
                                         <div class="characterboxborder">
                                             <div class="characterboxsize">
-                                                <a href="/Characters/Nakime/info.html" title="Nakime">
-                                                    <img src="/images/Nakime_Anime_Profile.webp" decoding="async"
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Nakime/info.html`} title="Nakime">
+                                                    <img src={`${import.meta.env.BASE_URL}images/Nakime_Anime_Profile.webp`} decoding="async"
                                                         loading="lazy" width="98" height="98">
                                                 </a>
                                             </div>
                                             <span class="characterboxtitle">
-                                                <a href="/Characters/Nakime/info.html" title="Nakime">
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Nakime/info.html`} title="Nakime">
                                                     Nakime
                                                 </a>
                                             </span>
                                         </div>
                                         <div class="characterboxborder">
                                             <div class="characterboxsize">
-                                                <a href="/Characters/Kaigaku/info.html" title="Kaigaku">
-                                                    <img src="/images/Kaigaku_Anime_Profile.webp" decoding="async"
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Kaigaku/info.html`} title="Kaigaku">
+                                                    <img src={`${import.meta.env.BASE_URL}images/Kaigaku_Anime_Profile.webp`} decoding="async"
                                                         loading="lazy" width="98" height="98">
                                                 </a>
                                             </div>
                                             <span class="characterboxtitle">
-                                                <a href="/Characters/Kaigaku/info.html" title="Kaigaku">
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Kaigaku/info.html`} title="Kaigaku">
                                                     Kaigaku
                                                 </a>
                                             </span>
                                         </div>
                                         <div class="characterboxborder">
                                             <div class="characterboxsize">
-                                                <a href="/Characters/Murata/info.html" title="Murata">
-                                                    <img src="/images/Murata_Anime_Profile.webp" decoding="async"
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Murata/info.html`} title="Murata">
+                                                    <img src={`${import.meta.env.BASE_URL}images/Murata_Anime_Profile.webp`} decoding="async"
                                                         loading="lazy" width="98" height="98">
                                                 </a>
                                             </div>
                                             <span class="characterboxtitle">
-                                                <a href="/Characters/Murata/info.html" title="Murata">
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Murata/info.html`} title="Murata">
                                                     Murata
                                                 </a>
                                             </span>
                                         </div>
                                         <div class="characterboxborder">
                                             <div class="characterboxsize">
-                                                <a href="/Characters/Kiriya_Ubuyashiki/info.html"
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Kiriya_Ubuyashiki/info.html`}
                                                     title="Kiriya Ubuyashiki">
-                                                    <img src="/images/Kiriya_Anime_Profile.webp" decoding="async"
+                                                    <img src={`${import.meta.env.BASE_URL}images/Kiriya_Anime_Profile.webp`} decoding="async"
                                                         loading="lazy" width="98" height="98">
                                                 </a>
                                             </div>
                                             <span class="characterboxtitle">
-                                                <a href="/Characters/Kiriya_Ubuyashiki/info.html"
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Kiriya_Ubuyashiki/info.html`}
                                                     title="Kiriya Ubuyashiki">
                                                     Kiriya
                                                 </a>
@@ -566,14 +566,14 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                                         </div>
                                         <div class="characterboxborder">
                                             <div class="characterboxsize">
-                                                <a href="/Characters/Kuina_Ubuyashiki/info.html"
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Kuina_Ubuyashiki/info.html`}
                                                     title="Kuina Ubuyashiki">
-                                                    <img src="/images/Kuina_Anime_Profile.webp" decoding="async"
+                                                    <img src={`${import.meta.env.BASE_URL}images/Kuina_Anime_Profile.webp`} decoding="async"
                                                         loading="lazy" width="98" height="98">
                                                 </a>
                                             </div>
                                             <span class="characterboxtitle">
-                                                <a href="/Characters/Kuina_Ubuyashiki/info.html"
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Kuina_Ubuyashiki/info.html`}
                                                     title="Kuina Ubuyashiki">
                                                     Kuina
                                                 </a>
@@ -581,14 +581,14 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                                         </div>
                                         <div class="characterboxborder">
                                             <div class="characterboxsize">
-                                                <a href="/Characters/Kanata_Ubuyashiki/info.html"
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Kanata_Ubuyashiki/info.html`}
                                                     title="Kanata Ubuyashiki">
-                                                    <img src="/images/Kanata_Anime_Profile.webp" decoding="async"
+                                                    <img src={`${import.meta.env.BASE_URL}images/Kanata_Anime_Profile.webp`} decoding="async"
                                                         loading="lazy" width="98" height="98">
                                                 </a>
                                             </div>
                                             <span class="characterboxtitle">
-                                                <a href="/Characters/Kanata_Ubuyashiki/info.html"
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Kanata_Ubuyashiki/info.html`}
                                                     title="Kanata Ubuyashiki">
                                                     Kanata
                                                 </a>
@@ -598,40 +598,40 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                                     <div class="mangatab" id="manga-content" style="display: none;">
                                         <div class="characterboxborder">
                                             <div class="characterboxsize">
-                                                <a href="/Characters/Tanjiro_Kamado/info.html" title="Tanjiro Kamado">
-                                                    <img src="/images/Tanjiro_profile_2.webp" decoding="async"
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Tanjiro_Kamado/info.html`} title="Tanjiro Kamado">
+                                                    <img src={`${import.meta.env.BASE_URL}images/Tanjiro_profile_2.webp`} decoding="async"
                                                         loading="lazy" width="98" height="98">
                                                 </a>
                                             </div>
                                             <span class="characterboxtitle">
-                                                <a href="/Characters/Tanjiro_Kamado/info.html" title="Tanjiro Kamado">
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Tanjiro_Kamado/info.html`} title="Tanjiro Kamado">
                                                     Tanjiro
                                                 </a>
                                             </span>
                                         </div>
                                         <div class="characterboxborder">
                                             <div class="characterboxsize">
-                                                <a href="/Characters/Nezuko_Kamado/info.html" title="Nezuko Kamado">
-                                                    <img src="/images/Nezuko_profile_29.webp" decoding="async"
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Nezuko_Kamado/info.html`} title="Nezuko Kamado">
+                                                    <img src={`${import.meta.env.BASE_URL}images/Nezuko_profile_29.webp`} decoding="async"
                                                         loading="lazy" width="98" height="98">
                                                 </a>
                                             </div>
                                             <span class="characterboxtitle">
-                                                <a href="/Characters/Nezuko_Kamado/info.html" title="Nezuko Kamado">
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Nezuko_Kamado/info.html`} title="Nezuko Kamado">
                                                     Nezuko
                                                 </a>
                                             </span>
                                         </div>
                                         <div class="characterboxborder">
                                             <div class="characterboxsize">
-                                                <a href="/Characters/Zenitsu_Agatsuma/info.html"
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Zenitsu_Agatsuma/info.html`}
                                                     title="Zenitsu Agatsuma">
-                                                    <img src="/images/Zenitsu_profile_2.webp" decoding="async"
+                                                    <img src={`${import.meta.env.BASE_URL}images/Zenitsu_profile_2.webp`} decoding="async"
                                                         loading="lazy" width="98" height="98">
                                                 </a>
                                             </div>
                                             <span class="characterboxtitle">
-                                                <a href="/Characters/Zenitsu_Agatsuma/info.html"
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Zenitsu_Agatsuma/info.html`}
                                                     title="Zenitsu Agatsuma">
                                                     Zenitsu
                                                 </a>
@@ -639,14 +639,14 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                                         </div>
                                         <div class="characterboxborder">
                                             <div class="characterboxsize">
-                                                <a href="/Characters/Inosuke_Hashibira/info.html"
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Inosuke_Hashibira/info.html`}
                                                     title="Inosuke Hashibira">
-                                                    <img src="/images/Inosuke_profile_29_3.webp" decoding="async"
+                                                    <img src={`${import.meta.env.BASE_URL}images/Inosuke_profile_29_3.webp`} decoding="async"
                                                         loading="lazy" width="98" height="98">
                                                 </a>
                                             </div>
                                             <span class="characterboxtitle">
-                                                <a href="/Characters/Inosuke_Hashibira/info.html"
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Inosuke_Hashibira/info.html`}
                                                     title="Inosuke Hashibira">
                                                     Inosuke
                                                 </a>
@@ -654,66 +654,66 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                                         </div>
                                         <div class="characterboxborder">
                                             <div class="characterboxsize">
-                                                <a href="/Characters/Kanao_Tsuyuri/info.html" title="Kanao Tsuyuri">
-                                                    <img src="/images/Kanao_profile.webp" decoding="async"
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Kanao_Tsuyuri/info.html`} title="Kanao Tsuyuri">
+                                                    <img src={`${import.meta.env.BASE_URL}images/Kanao_profile.webp`} decoding="async"
                                                         loading="lazy" width="98" height="98">
                                                 </a>
                                             </div>
                                             <span class="characterboxtitle">
-                                                <a href="/Characters/Kanao_Tsuyuri/info.html" title="Kanao Tsuyuri">
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Kanao_Tsuyuri/info.html`} title="Kanao Tsuyuri">
                                                     Kanao
                                                 </a>
                                             </span>
                                         </div>
                                         <div class="characterboxborder">
                                             <div class="characterboxsize">
-                                                <a href="/Characters/Giyu_Tomioka/info.html" title="Giyu Tomioka">
-                                                    <img src="/images/Giyu_manga_profile_29.webp" decoding="async"
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Giyu_Tomioka/info.html`} title="Giyu Tomioka">
+                                                    <img src={`${import.meta.env.BASE_URL}images/Giyu_manga_profile_29.webp`} decoding="async"
                                                         loading="lazy" width="98" height="98">
                                                 </a>
                                             </div>
                                             <span class="characterboxtitle">
-                                                <a href="/Characters/Giyu_Tomioka/info.html" title="Giyu Tomioka">
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Giyu_Tomioka/info.html`} title="Giyu Tomioka">
                                                     Giyu
                                                 </a>
                                             </span>
                                         </div>
                                         <div class="characterboxborder">
                                             <div class="characterboxsize">
-                                                <a href="/Characters/Mitsuri_Kanroji/info.html" title="Mitsuri Kanroji">
-                                                    <img src="/images/Mitsuri_profile_2.webp" decoding="async"
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Mitsuri_Kanroji/info.html`} title="Mitsuri Kanroji">
+                                                    <img src={`${import.meta.env.BASE_URL}images/Mitsuri_profile_2.webp`} decoding="async"
                                                         loading="lazy" width="98" height="98">
                                                 </a>
                                             </div>
                                             <span class="characterboxtitle">
-                                                <a href="/Characters/Mitsuri_Kanroji/info.html" title="Mitsuri Kanroji">
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Mitsuri_Kanroji/info.html`} title="Mitsuri Kanroji">
                                                     Mitsuri
                                                 </a>
                                             </span>
                                         </div>
                                         <div class="characterboxborder">
                                             <div class="characterboxsize">
-                                                <a href="/Characters/Obanai_Iguro/info.html" title="Obanai Iguro">
-                                                    <img src="/images/Obanai_profile_29.webp" decoding="async"
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Obanai_Iguro/info.html`} title="Obanai Iguro">
+                                                    <img src={`${import.meta.env.BASE_URL}images/Obanai_profile_29.webp`} decoding="async"
                                                         loading="lazy" width="98" height="98">
                                                 </a>
                                             </div>
                                             <span class="characterboxtitle">
-                                                <a href="/Characters/Obanai_Iguro/info.html" title="Obanai Iguro">
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Obanai_Iguro/info.html`} title="Obanai Iguro">
                                                     Obanai
                                                 </a>
                                             </span>
                                         </div>
                                         <div class="characterboxborder">
                                             <div class="characterboxsize">
-                                                <a href="/Characters/Sanemi_Shinazugawa/info.html"
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Sanemi_Shinazugawa/info.html`}
                                                     title="Sanemi Shinazugawa">
-                                                    <img src="/images/Sanemi_profile_29.webp" decoding="async"
+                                                    <img src={`${import.meta.env.BASE_URL}images/Sanemi_profile_29.webp`} decoding="async"
                                                         loading="lazy" width="98" height="98">
                                                 </a>
                                             </div>
                                             <span class="characterboxtitle">
-                                                <a href="/Characters/Sanemi_Shinazugawa/info.html"
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Sanemi_Shinazugawa/info.html`}
                                                     title="Sanemi Shinazugawa">
                                                     Sanemi
                                                 </a>
@@ -721,40 +721,40 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                                         </div>
                                         <div class="characterboxborder">
                                             <div class="characterboxsize">
-                                                <a href="/Characters/Gyomei_Himejima/info.html" title="Gyomei Himejima">
-                                                    <img src="/images/Gyomei_profile_2.webp" decoding="async"
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Gyomei_Himejima/info.html`} title="Gyomei Himejima">
+                                                    <img src={`${import.meta.env.BASE_URL}images/Gyomei_profile_2.webp`} decoding="async"
                                                         loading="lazy" width="98" height="98">
                                                 </a>
                                             </div>
                                             <span class="characterboxtitle">
-                                                <a href="/Characters/Gyomei_Himejima/info.html" title="Gyomei Himejima">
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Gyomei_Himejima/info.html`} title="Gyomei Himejima">
                                                     Gyomei
                                                 </a>
                                             </span>
                                         </div>
                                         <div class="characterboxborder">
                                             <div class="characterboxsize">
-                                                <a href="/Characters/Muzan_Kibutsuji/info.html" title="Muzan Kibutsuji">
-                                                    <img src="/images/Muzan_profile_29.webp" decoding="async"
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Muzan_Kibutsuji/info.html`} title="Muzan Kibutsuji">
+                                                    <img src={`${import.meta.env.BASE_URL}images/Muzan_profile_29.webp`} decoding="async"
                                                         loading="lazy" width="98" height="98">
                                                 </a>
                                             </div>
                                             <span class="characterboxtitle">
-                                                <a href="/Characters/Muzan_Kibutsuji/info.html" title="Muzan Kibutsuji">
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Muzan_Kibutsuji/info.html`} title="Muzan Kibutsuji">
                                                     Muzan
                                                 </a>
                                             </span>
                                         </div>
                                         <div class="characterboxborder">
                                             <div class="characterboxsize">
-                                                <a href="/Characters/Yoriichi_Tsugikuni/info.html"
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Yoriichi_Tsugikuni/info.html`}
                                                     title="Yoriichi Tsugikuni">
-                                                    <img src="/images/Yoriichi_profile.webp" decoding="async"
+                                                    <img src={`${import.meta.env.BASE_URL}images/Yoriichi_profile.webp`} decoding="async"
                                                         loading="lazy" width="98" height="98">
                                                 </a>
                                             </div>
                                             <span class="characterboxtitle">
-                                                <a href="/Characters/Yoriichi_Tsugikuni/info.html"
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Yoriichi_Tsugikuni/info.html`}
                                                     title="Yoriichi Tsugikuni">
                                                     Yoriichi
                                                 </a>
@@ -762,92 +762,92 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                                         </div>
                                         <div class="characterboxborder">
                                             <div class="characterboxsize">
-                                                <a href="/Characters/Nakime/info.html" title="Nakime">
-                                                    <img src="/images/Nakime_profile_2.webp" decoding="async"
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Nakime/info.html`} title="Nakime">
+                                                    <img src={`${import.meta.env.BASE_URL}images/Nakime_profile_2.webp`} decoding="async"
                                                         loading="lazy" width="98" height="98">
                                                 </a>
                                             </div>
                                             <span class="characterboxtitle">
-                                                <a href="/Characters/Nakime/info.html" title="Nakime">
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Nakime/info.html`} title="Nakime">
                                                     Nakime
                                                 </a>
                                             </span>
                                         </div>
                                         <div class="characterboxborder">
                                             <div class="characterboxsize">
-                                                <a href="/Characters/Tamayo/info.html" title="Tamayo">
-                                                    <img src="/images/Tamayo_profile_2.webp" decoding="async"
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Tamayo/info.html`} title="Tamayo">
+                                                    <img src={`${import.meta.env.BASE_URL}images/Tamayo_profile_2.webp`} decoding="async"
                                                         loading="lazy" width="98" height="98">
                                                 </a>
                                             </div>
                                             <span class="characterboxtitle">
-                                                <a href="/Characters/Tamayo/info.html" title="Tamayo">
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Tamayo/info.html`} title="Tamayo">
                                                     Tamayo
                                                 </a>
                                             </span>
                                         </div>
                                         <div class="characterboxborder">
                                             <div class="characterboxsize">
-                                                <a href="/Characters/Yushiro/info.html" title="Yushiro">
-                                                    <img src="/images/Yushiro_profile_3.webp" decoding="async"
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Yushiro/info.html`} title="Yushiro">
+                                                    <img src={`${import.meta.env.BASE_URL}images/Yushiro_profile_3.webp`} decoding="async"
                                                         loading="lazy" width="98" height="98">
                                                 </a>
                                             </div>
                                             <span class="characterboxtitle">
-                                                <a href="/Characters/Yushiro/info.html" title="Yushiro">
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Yushiro/info.html`} title="Yushiro">
                                                     Yushiro
                                                 </a>
                                             </span>
                                         </div>
                                         <div class="characterboxborder">
                                             <div class="characterboxsize">
-                                                <a href="/Characters/Kanata_Kamado/info.html" title="Kanata Kamado">
-                                                    <img src="/images/Kanata_Kamado_profile.webp" decoding="async"
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Kanata_Kamado/info.html`} title="Kanata Kamado">
+                                                    <img src={`${import.meta.env.BASE_URL}images/Kanata_Kamado_profile.webp`} decoding="async"
                                                         loading="lazy" width="98" height="98">
                                                 </a>
                                             </div>
                                             <span class="characterboxtitle">
-                                                <a href="/Characters/Kanata_Kamado/info.html" title="Kanata Kamado">
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Kanata_Kamado/info.html`} title="Kanata Kamado">
                                                     Kanata
                                                 </a>
                                             </span>
                                         </div>
                                         <div class="characterboxborder">
                                             <div class="characterboxsize">
-                                                <a href="/Characters/Sumihiko_Kamado/info.html" title="Sumihiko Kamado">
-                                                    <img src="/images/Sumihiko_profile.webp" decoding="async"
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Sumihiko_Kamado/info.html`} title="Sumihiko Kamado">
+                                                    <img src={`${import.meta.env.BASE_URL}images/Sumihiko_profile.webp`} decoding="async"
                                                         loading="lazy" width="98" height="98">
                                                 </a>
                                             </div>
                                             <span class="characterboxtitle">
-                                                <a href="/Characters/Sumihiko_Kamado/info.html" title="Sumihiko Kamado">
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Sumihiko_Kamado/info.html`} title="Sumihiko Kamado">
                                                     Sumihiko
                                                 </a>
                                             </span>
                                         </div>
                                         <div class="characterboxborder">
                                             <div class="characterboxsize">
-                                                <a href="/Characters/Toko_Agatsuma/info.html" title="Toko Agatsuma">
-                                                    <img src="/images/Toko_profile.webp" decoding="async" loading="lazy"
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Toko_Agatsuma/info.html`} title="Toko Agatsuma">
+                                                    <img src={`${import.meta.env.BASE_URL}images/Toko_profile.webp`} decoding="async" loading="lazy"
                                                         width="98" height="98">
                                                 </a>
                                             </div>
                                             <span class="characterboxtitle">
-                                                <a href="/Characters/Toko_Agatsuma/info.html" title="Toko Agatsuma">
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Toko_Agatsuma/info.html`} title="Toko Agatsuma">
                                                     Toko
                                                 </a>
                                             </span>
                                         </div>
                                         <div class="characterboxborder">
                                             <div class="characterboxsize">
-                                                <a href="/Characters/Yoshiteru_Agatsuma/info.html"
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Yoshiteru_Agatsuma/info.html`}
                                                     title="Yoshiteru Agatsuma">
-                                                    <img src="/images/Yoshiteru_profile.webp" decoding="async"
+                                                    <img src={`${import.meta.env.BASE_URL}images/Yoshiteru_profile.webp`} decoding="async"
                                                         loading="lazy" width="98" height="98">
                                                 </a>
                                             </div>
                                             <span class="characterboxtitle">
-                                                <a href="/Characters/Yoshiteru_Agatsuma/info.html"
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Yoshiteru_Agatsuma/info.html`}
                                                     title="Yoshiteru Agatsuma">
                                                     Yoshiteru
                                                 </a>
@@ -855,13 +855,13 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                                         </div>
                                         <div class="characterboxborder">
                                             <div class="characterboxsize">
-                                                <a href="/Characters/Aoba_Hashibira/info.html" title="Aoba Hashibira">
-                                                    <img src="/images/Aoba_profile.webp" decoding="async" loading="lazy"
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Aoba_Hashibira/info.html`} title="Aoba Hashibira">
+                                                    <img src={`${import.meta.env.BASE_URL}images/Aoba_profile.webp`} decoding="async" loading="lazy"
                                                         width="98" height="98">
                                                 </a>
                                             </div>
                                             <span class="characterboxtitle">
-                                                <a href="/Characters/Aoba_Hashibira/info.html" title="Aoba Hashibira">
+                                                <a href={`${import.meta.env.BASE_URL}Characters/Aoba_Hashibira/info.html`} title="Aoba Hashibira">
                                                     Aoba
                                                 </a>
                                             </span>
@@ -871,7 +871,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                                     <p style="text-align: center;">
                                         <i>
                                             See
-                                            <a href="/characters.html" class="link">
+                                            <a href={`${import.meta.env.BASE_URL}characters.html`} class="link">
                                                 Characters
                                             </a>
                                             for the full list of character articles.
@@ -915,7 +915,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                                         <div class="releasecontainer">
                                             <div class="leftrelease">
                                                 <a href="" title="Demon Slayer: Kimetsu no Yaiba - Infinity Castle">
-                                                    <img src="/images/Infinity_Castle_Movie_Key_Visual_29.webp"
+                                                    <img src={`${import.meta.env.BASE_URL}images/Infinity_Castle_Movie_Key_Visual_29.webp`}
                                                         decoding="async" loading="lazy" width="125" height="178">
                                                 </a>
                                             </div>
@@ -934,7 +934,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                                         <div class="releasecontainer">
                                             <div class="leftrelease">
                                                 <a href="" title="Blu-ray & DVD: Hashira Training Arc - Volume 4">
-                                                    <img src="/images/BRDVD_Hashira_Training_Arc_-_Volume_4.webp"
+                                                    <img src={`${import.meta.env.BASE_URL}images/BRDVD_Hashira_Training_Arc_-_Volume_4.webp`}
                                                         decoding="async" loading="lazy" width="125" height="170">
                                                 </a>
                                             </div>
@@ -958,7 +958,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                                         <div class="releasecontainer">
                                             <div class="leftrelease">
                                                 <a href="" title="Blu-ray & DVD: Hashira Training Arc - Volume 4">
-                                                    <img src="/images/Kimetsu_no_Yaiba_V23_EN.webp" decoding="async"
+                                                    <img src={`${import.meta.env.BASE_URL}images/Kimetsu_no_Yaiba_V23_EN.webp`} decoding="async"
                                                         loading="lazy" width="125" height="188">
                                                 </a>
                                             </div>
@@ -977,7 +977,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                                         <div class="releasecontainer">
                                             <div class="leftrelease">
                                                 <a href="" title="Blu-ray & DVD: Hashira Training Arc - Volume 4">
-                                                    <img src="/images/Demon_Slayer-_Kimetsu_no_Yaiba_-_The_Hinokami_Chronicles_2_29.webp"
+                                                    <img src={`${import.meta.env.BASE_URL}images/Demon_Slayer-_Kimetsu_no_Yaiba_-_The_Hinokami_Chronicles_2_29.webp`}
                                                         decoding="async" loading="lazy" width="125" height="139">
                                                 </a>
                                             </div>
@@ -1050,7 +1050,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                                         </div>
                                         <div class="chapter-section-container">
                                             <a href="" title="Chapter 205">
-                                                <img src="/images/Kimetsu_no_Yaiba_CH205.webp" decoding="async"
+                                                <img src={`${import.meta.env.BASE_URL}images/Kimetsu_no_Yaiba_CH205.webp`} decoding="async"
                                                     loading="lazy" width="220" height="161" class="chapter-section-img">
                                             </a>
                                         </div>
@@ -1071,7 +1071,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                                         </div>
                                         <div class="chapter-section-container">
                                             <a href="" title="Chapter 205">
-                                                <img src="/images/Kyojuro_Rengokus_Story_Part_2.webp" decoding="async"
+                                                <img src={`${import.meta.env.BASE_URL}images/Kyojuro_Rengokus_Story_Part_2.webp`} decoding="async"
                                                     loading="lazy" width="220" height="320" class="chapter-section-img">
                                             </a>
                                         </div>
@@ -1106,7 +1106,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                                         <div id="volume-section">
                                             <div class="chapter-section-container">
                                                 <a href="" title="Chapter 205">
-                                                    <img src="/images/Kimetsu_no_Yaiba_V23.webp" decoding="async"
+                                                    <img src={`${import.meta.env.BASE_URL}images/Kimetsu_no_Yaiba_V23.webp`} decoding="async"
                                                         loading="lazy" width="200" height="314"
                                                         class="chapter-section-img">
                                                 </a>
@@ -1123,7 +1123,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                                         <div id="volume-section">
                                             <div class="chapter-section-container">
                                                 <a href="" title="Chapter 205">
-                                                    <img src="/images/Kimetsu_no_Yaiba_Stories_of_Water_and_Flame.webp"
+                                                    <img src={`${import.meta.env.BASE_URL}images/Kimetsu_no_Yaiba_Stories_of_Water_and_Flame.webp`}
                                                         decoding="async" loading="lazy" width="200" height="314"
                                                         class="chapter-section-img">
                                                 </a>
@@ -1140,7 +1140,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                                         <div id="volume-section">
                                             <div class="chapter-section-container">
                                                 <a href="" title="Chapter 205">
-                                                    <img src="/images/Rengoku_Volume_0.webp" decoding="async"
+                                                    <img src={`${import.meta.env.BASE_URL}images/Rengoku_Volume_0.webp`} decoding="async"
                                                         loading="lazy" width="200" height="300"
                                                         class="chapter-section-img">
                                                 </a>
@@ -1158,7 +1158,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                                         <div id="volume-section">
                                             <div class="chapter-section-container">
                                                 <a href="" title="Chapter 205">
-                                                    <img src="/images/Kimetsu_no_Yaiba_V23_EN.webp" decoding="async"
+                                                    <img src={`${import.meta.env.BASE_URL}images/Kimetsu_no_Yaiba_V23_EN.webp`} decoding="async"
                                                         loading="lazy" width="200" height="300"
                                                         class="chapter-section-img">
                                                 </a>
@@ -1175,7 +1175,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                                         <div id="volume-section">
                                             <div class="chapter-section-container">
                                                 <a href="" title="Chapter 205">
-                                                    <img src="/images/Kimetsu_no_Yaiba_Stories_of_Water_and_Flame_EN.webp"
+                                                    <img src={`${import.meta.env.BASE_URL}images/Kimetsu_no_Yaiba_Stories_of_Water_and_Flame_EN.webp`}
                                                         decoding="async" loading="lazy" width="200" height="314"
                                                         class="chapter-section-img">
                                                 </a>
@@ -1229,7 +1229,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                                                 <div id="volume-section">
                                                     <div class="chapter-section-container">
                                                         <a href="" title="Episode 63">
-                                                            <img src="/images/Episode_63_Title_Card.webp"
+                                                            <img src={`${import.meta.env.BASE_URL}images/Episode_63_Title_Card.webp`}
                                                                 decoding="async" loading="lazy" width="250" height="141"
                                                                 class="chapter-section-img">
                                                         </a>
@@ -1249,7 +1249,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                                                 <div id="volume-section">
                                                     <div class="chapter-section-container">
                                                         <a href="" title="Episode 63">
-                                                            <img src="/images/Episode_63_Title_Card.webp"
+                                                            <img src={`${import.meta.env.BASE_URL}images/Episode_63_Title_Card.webp`}
                                                                 decoding="async" loading="lazy" width="250" height="141"
                                                                 class="chapter-section-img">
                                                         </a>
@@ -1271,7 +1271,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                                             <div id="volume-section">
                                                 <div class="chapter-section-container">
                                                     <a href="" title="Blu-ray & DVD: Hashira Training Arc - Volume 4">
-                                                        <img src="/images/BDDVD_Hashira_Training_Arc_-_Volume_4.webp"
+                                                        <img src={`${import.meta.env.BASE_URL}images/BDDVD_Hashira_Training_Arc_-_Volume_4.webp`}
                                                             decoding="async" loading="lazy" width="250" height="340"
                                                             class="chapter-section-img">
                                                     </a>
@@ -1422,6 +1422,6 @@ import BaseLayout from '../layouts/BaseLayout.astro';
             </div>
         </div>
 
-  <script slot="scripts" src="/javascripts/slideshow.js" is:inline></script>
-  <script slot="scripts" src="/javascripts/homepage.js" is:inline></script>
+  <script slot="scripts" src={`${import.meta.env.BASE_URL}javascripts/slideshow.js`} is:inline></script>
+  <script slot="scripts" src={`${import.meta.env.BASE_URL}javascripts/homepage.js`} is:inline></script>
 </BaseLayout>

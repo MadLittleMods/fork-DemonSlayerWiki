@@ -110,7 +110,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                 <div class="tabs is-current">
                     <figure class="image">
                         <a id="expImg" href="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/48265441-add4-48b6-99ce-fb71117c63bb/dfw9luz-e8b791b7-a323-408c-86a3-be868e3352ab.png/v1/fit/w_806,h_1051/inosuke_hashibira_png_by_zelrom_dfw9luz-414w-2x.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA1MSIsInBhdGgiOiJcL2ZcLzQ4MjY1NDQxLWFkZDQtNDhiNi05OWNlLWZiNzExMTdjNjNiYlwvZGZ3OWx1ei1lOGI3OTFiNy1hMzIzLTQwOGMtODZhMy1iZTg2OGUzMzUyYWIucG5nIiwid2lkdGgiOiI8PTgwNiJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.EcJqGSbdbijOlmr89xNjHhvc_Dw3AYHRrFGTmQh3NdU" target="_blank">
-                            <img id="curImg" src="/images/inosuke.png" />
+                            <img id="curImg" src={`${import.meta.env.BASE_URL}images/inosuke.png`} />
                         </a>
                     </figure>
                 </div>
@@ -167,9 +167,9 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                     <div class="value">
                         <a href="tanjiro.html" class="link">Tanjiro Kamado</a>
                         <br>
-                        <a href="/wiki/nezuko.html" class="link">Nezuko Kamado</a>
+                        <a href={`${import.meta.env.BASE_URL}wiki/nezuko.html`} class="link">Nezuko Kamado</a>
                         <br>
-                        <a href="/wiki/zenitsu.html" class="link">Zenitsu Agatsuma</a>
+                        <a href={`${import.meta.env.BASE_URL}wiki/zenitsu.html`} class="link">Zenitsu Agatsuma</a>
                     </div>
                 </div>
             </section>
@@ -182,13 +182,13 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                         <br>
                         Unnamed Father
                         <br>
-                        <a href="/wiki/kotoha.html" class="link">Kotoha Hashibira</a>
+                        <a href={`${import.meta.env.BASE_URL}wiki/kotoha.html`} class="link">Kotoha Hashibira</a>
                         <small>(Mother)</small>
                         <br>
-                        <a href="/wiki/aoi.html" class="link">Aoi Kanzaki</a>
+                        <a href={`${import.meta.env.BASE_URL}wiki/aoi.html`} class="link">Aoi Kanzaki</a>
                         <small>(Wife)</small>
                         <br>
-                        <a href="/wiki/aoba.html" class="link">Aoba Hashibira</a>
+                        <a href={`${import.meta.env.BASE_URL}wiki/aoba.html`} class="link">Aoba Hashibira</a>
                         <small>(Great-Grandson)</small>
                         <br>
                         Unnamed Great-Grandson
@@ -200,13 +200,13 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                 <div class="item-spacing">
                     <h3 class="label">Japanese VA</h3>
                     <div class="value">
-                        <a href="/wiki/yoshitsugu.html" class="link">Yoshitsugu Matsuoka</a>
+                        <a href={`${import.meta.env.BASE_URL}wiki/yoshitsugu.html`} class="link">Yoshitsugu Matsuoka</a>
                     </div>
                 </div>
                 <div class="item-spacing">
                     <h3 class="label">English VA</h3>
                     <div class="value">
-                        <a href="/wiki/bryce.html" class="link">Bryce Papenbrook</a>
+                        <a href={`${import.meta.env.BASE_URL}wiki/bryce.html`} class="link">Bryce Papenbrook</a>
                     </div>
                 </div>
             </section>

@@ -9,19 +9,19 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
 
               <div class="mySlides">
                   <div class="numbertext">1 / 4</div>
-                  <img src="/images/Obanai_giving_Mitsuri_her_green_socks.webp" style="width:100%;">
+                  <img src={`${import.meta.env.BASE_URL}images/Obanai_giving_Mitsuri_her_green_socks.webp`} style="width:100%;">
               </div>
               <div class="mySlides">
                   <div class="numbertext">2 / 4</div>
-                  <img src="/images/Obanai_promises_Mitsuri_that_he_wont_let_anyone_insult_her.webp" style="width:38.6%;">
+                  <img src={`${import.meta.env.BASE_URL}images/Obanai_promises_Mitsuri_that_he_wont_let_anyone_insult_her.webp`} style="width:38.6%;">
               </div>
               <div class="mySlides">
                   <div class="numbertext">3 / 4</div>
-                  <img src="/images/Obanai_helping_Tanjiro_up.webp" style="width:67.9%;">
+                  <img src={`${import.meta.env.BASE_URL}images/Obanai_helping_Tanjiro_up.webp`} style="width:67.9%;">
               </div>
               <div class="mySlides">
                   <div class="numbertext">4 / 4</div>
-                  <img src="/images/Obanai_and_Sanemi_discuss_the_findings_at_the_castle.webp" style="width:100%;">
+                  <img src={`${import.meta.env.BASE_URL}images/Obanai_and_Sanemi_discuss_the_findings_at_the_castle.webp`} style="width:100%;">
               </div>
 
               <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -33,20 +33,20 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
 
               <div class="scroll-container">
                   <div class="column" id="Pic1">
-                      <img class="demo cursor" src="/images/Obanai_giving_Mitsuri_her_green_socks.webp"
+                      <img class="demo cursor" src={`${import.meta.env.BASE_URL}images/Obanai_giving_Mitsuri_her_green_socks.webp`}
                           onclick="currentSlide(1)" alt="Obanai giving Mitsuri her green socks">
                   </div>
                   <div class="column" id="Pic2">
                       <img class="demo cursor"
-                          src="/images/Obanai_promises_Mitsuri_that_he_wont_let_anyone_insult_her.webp"
+                          src={`${import.meta.env.BASE_URL}images/Obanai_promises_Mitsuri_that_he_wont_let_anyone_insult_her.webp`}
                           onclick="currentSlide(2)" alt="Obanai promises Mitsuri that he won't let anyone insult her">
                   </div>
                   <div class="column" id="Pic3">
-                      <img class="demo cursor" src="/images/Obanai_helping_Tanjiro_up.webp" onclick="currentSlide(3)"
+                      <img class="demo cursor" src={`${import.meta.env.BASE_URL}images/Obanai_helping_Tanjiro_up.webp`} onclick="currentSlide(3)"
                           alt="Obanai helping Tanjiro up">
                   </div>
                   <div class="column" id="Pic4">
-                      <img class="demo cursor" src="/images/Obanai_and_Sanemi_discuss_the_findings_at_the_castle.webp"
+                      <img class="demo cursor" src={`${import.meta.env.BASE_URL}images/Obanai_and_Sanemi_discuss_the_findings_at_the_castle.webp`}
                           onclick="currentSlide(4)" alt="Obanai and Sanemi discuss the findings at the Infinity Castle">
                   </div>
               </div>
@@ -61,10 +61,10 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
 
             <div class="link-tabs">
                 <div class="link-space">
-                    <a href="/Characters/Obanai_Iguro/info.html" class="link">Info</a>
+                    <a href={`${import.meta.env.BASE_URL}Characters/Obanai_Iguro/info.html`} class="link">Info</a>
                 </div>
                 <div class="link-space">
-                    <a href="/Characters/Obanai_Iguro/synopsis.html" class="link">Synopsis</a>
+                    <a href={`${import.meta.env.BASE_URL}Characters/Obanai_Iguro/synopsis.html`} class="link">Synopsis</a>
                 </div>
                 <div class="link-space current-page">
                     <a class="link">Relationships</a>
@@ -73,7 +73,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
 
             <h1>Obanai Iguro/Relationships</h1>
             <p>
-                <<a href="/Characters/Obanai_Iguro/info.html" class="link">Obanai Iguro</a>
+                <<a href={`${import.meta.env.BASE_URL}Characters/Obanai_Iguro/info.html`} class="link">Obanai Iguro</a>
             </p>
 
             <br>
@@ -194,7 +194,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
             <p>
                 Upon learning of the true reason for their overprotectiveness was due to him being
                 their "offering" to their
-                <a href="/Characters/Serpent_Demon/info.html" class="link" title="Serpent Demon">benefactor</a>
+                <a href={`${import.meta.env.BASE_URL}Characters/Serpent_Demon/info.html`} class="link" title="Serpent Demon">benefactor</a>
                 and source of their immense wealth and prosperity, Obanai became completely
                 disgusted by their greed, selfishness, and amorality. When he ran away to avoid
                 being sacrificed, Obanai feared what the demon might do to his family, but he
@@ -217,13 +217,13 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
             </h3>
             <p>
                 After the
-                <a href="/Characters/Serpent_Demon/info.html" class="link" title="Serpent Demon">Demon</a>
+                <a href={`${import.meta.env.BASE_URL}Characters/Serpent_Demon/info.html`} class="link" title="Serpent Demon">Demon</a>
                 his family had contracted with killed almost all his relatives after Obanai made
                 his escape, only one of his cousins survived the massacre. In the aftermath, she
                 was shown to have deeply resented Obanai, attacking and berating him "causing" the
                 deaths of their clanmates. She angrily screamed that he should have allowed the
                 demon to eat him, and had to be dragged away by
-                <a href="/Characters/Shinjuro_Rengoku/info.html" class="link">Shinjuro Rengoku</a>.
+                <a href={`${import.meta.env.BASE_URL}Characters/Shinjuro_Rengoku/info.html`} class="link">Shinjuro Rengoku</a>.
                 Rather than reflect on her family's decision to offer people to the demon and
                 taking advantage of the monster's victims for profit, she chose to blame Obanai for
                 her loss.
@@ -255,14 +255,14 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
             <br>
             <h3>
                 <span class="anchor" id="MitsuriKanroji">
-                    <a href="/Characters/Mitsuri_Kanroji/info.html" class="link">Mitsuri
+                    <a href={`${import.meta.env.BASE_URL}Characters/Mitsuri_Kanroji/info.html`} class="link">Mitsuri
                         Kanroji</a>
                 </span>
             </h3>
             <p>
             <figure class="left-side-anime-pic">
                 <a class="contain-img" href="#Pic1">
-                    <img src="/images/Obanai_giving_Mitsuri_her_green_socks.webp"
+                    <img src={`${import.meta.env.BASE_URL}images/Obanai_giving_Mitsuri_her_green_socks.webp`}
                         class="figure-img zoom contain-img cursor" onclick="openModal();currentSlide(1)">
                 </a>
                 <figcaption class="caption">
@@ -300,7 +300,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
             <p>
             <figure class="right-side-anime-pic">
                 <a class="contain-img" href="#Pic2">
-                    <img src="/images/Obanai_promises_Mitsuri_that_he_wont_let_anyone_insult_her.webp"
+                    <img src={`${import.meta.env.BASE_URL}images/Obanai_promises_Mitsuri_that_he_wont_let_anyone_insult_her.webp`}
                         class="figure-img zoom contain-img cursor obanai-pic4" onclick="openModal();currentSlide(2)">
                 </a>
                 <figcaption class="caption">
@@ -313,7 +313,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
             After the battle with Muzan, Obanai is seen cradling Mitsuri's body and, although both
             were still alive, they could tell that they were about to die soon. Obanai reminisces
             about the first time they met at
-            <a href="/Characters/Kagaya_Ubuyashiki/info.html" class="link">Kagaya Ubuyashiki</a>'s
+            <a href={`${import.meta.env.BASE_URL}Characters/Kagaya_Ubuyashiki/info.html`} class="link">Kagaya Ubuyashiki</a>'s
             mansion, where Mitsuri saved him by making him feel like a normal young man, which led
             to him deciding that he would not let anyone say anything bad about her. In the end,
             Mitsuri confesses that she likes him and that she enjoyed the meals she ate with him.
@@ -325,7 +325,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
             <br>
             <h3>
                 <span class="anchor" id="KagayaUbuyashiki">
-                    <a href="/Characters/Kagaya_Ubuyashiki/info.html" class="link">Kagaya
+                    <a href={`${import.meta.env.BASE_URL}Characters/Kagaya_Ubuyashiki/info.html`} class="link">Kagaya
                         Ubuyashiki</a>
                 </span>
             </h3>
@@ -339,7 +339,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
             <br>
             <h3>
                 <span class="anchor" id="GiyuTomioka">
-                    <a href="/Characters/Giyu_Tomioka/info.html" class="link">Giyu Tomioka</a>
+                    <a href={`${import.meta.env.BASE_URL}Characters/Giyu_Tomioka/info.html`} class="link">Giyu Tomioka</a>
                 </span>
             </h3>
             <p>
@@ -360,13 +360,13 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
             <br>
             <h3>
                 <span class="anchor" id="TanjiroKamado">
-                    <a href="/Characters/Tanjiro_Kamado/info.html" class="link">Tanjiro Kamado</a>
+                    <a href={`${import.meta.env.BASE_URL}Characters/Tanjiro_Kamado/info.html`} class="link">Tanjiro Kamado</a>
                 </span>
             </h3>
             <p>
             <figure class="left-side-anime-pic">
                 <a class="contain-img" href="#Pic3">
-                    <img src="/images/Obanai_helping_Tanjiro_up.webp"
+                    <img src={`${import.meta.env.BASE_URL}images/Obanai_helping_Tanjiro_up.webp`}
                         class="figure-img zoom contain-img cursor obanai-pic5" onclick="openModal();currentSlide(3)">
                 </a>
                 <figcaption class="caption">
@@ -396,7 +396,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
             <br>
             <h3>
                 <span class="anchor" id="NezukoKamado">
-                    <a href="/Characters/Nezuko_Kamado/info.html" class="link">Nezuko Kamado</a>
+                    <a href={`${import.meta.env.BASE_URL}Characters/Nezuko_Kamado/info.html`} class="link">Nezuko Kamado</a>
                 </span>
             </h3>
             <p>
@@ -410,7 +410,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
             <br>
             <h3>
                 <span class="anchor" id="KyojuroRengoku">
-                    <a href="/Characters/Kyojuro_Rengoku/info.html" class="link">Kyojuro
+                    <a href={`${import.meta.env.BASE_URL}Characters/Kyojuro_Rengoku/info.html`} class="link">Kyojuro
                         Rengoku</a>
                 </span>
             </h3>
@@ -418,15 +418,15 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
                 Obanai appears to deeply respect Kyojuro and holds him in high regard. He believes
                 he was extremely powerful and expresses disbelief upon learning about his death.
                 It's also known that Kyojuro's father
-                <a href="/Characters/Shinjuro_Rengoku/info.html" class="link">Shinjuro Rengoku</a>
+                <a href={`${import.meta.env.BASE_URL}Characters/Shinjuro_Rengoku/info.html`} class="link">Shinjuro Rengoku</a>
                 rescued Obanai from the
-                <a href="/Characters/Serpent_Demon/info.html" class="link">Serpent Demon</a> as a
+                <a href={`${import.meta.env.BASE_URL}Characters/Serpent_Demon/info.html`} class="link">Serpent Demon</a> as a
                 boy, although it's unkown if the two ever met before becoming Hashira.
             </p>
             <br>
             <h3>
                 <span class="anchor" id="TengenUzui">
-                    <a href="/Characters/Tengen_Uzui/info.html" class="link">Tengen Uzui</a>
+                    <a href={`${import.meta.env.BASE_URL}Characters/Tengen_Uzui/info.html`} class="link">Tengen Uzui</a>
                 </span>
             </h3>
             <p>
@@ -438,14 +438,14 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
             <br>
             <h3>
                 <span class="anchor" id="SanemiShinazugawa">
-                    <a href="/Characters/Sanemi_Shinazugawa/info.html" class="link">Sanemi
+                    <a href={`${import.meta.env.BASE_URL}Characters/Sanemi_Shinazugawa/info.html`} class="link">Sanemi
                         Shinazugawa</a>
                 </span>
             </h3>
             <p>
             <figure class="right-side-anime-pic">
                 <a class="contain-img" href="#Pic4">
-                    <img src="/images/Obanai_and_Sanemi_discuss_the_findings_at_the_castle.webp"
+                    <img src={`${import.meta.env.BASE_URL}images/Obanai_and_Sanemi_discuss_the_findings_at_the_castle.webp`}
                         class="figure-img zoom contain-img cursor" onclick="openModal();currentSlide(4)">
                 </a>
                 <figcaption class="caption">
@@ -523,7 +523,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
                         <th class="nav-table-header">
                             <aside>[<a href="#" class="link" id="nav-table-btn">show</a>]</aside>
                             <div class="nav-table-char">
-                                <a href="/characters.html">Characters</a>
+                                <a href={`${import.meta.env.BASE_URL}characters.html`}>Characters</a>
                             </div>
                         </th>
                     </tr>
@@ -541,23 +541,23 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
                                             <b>Ubuyashiki Family:</b>
                                         </td>
                                         <td class="nav-table-section-right">
-                                            <a href="/Characters/Kagaya_Ubuyashiki/info.html" class="link">Kagaya
+                                            <a href={`${import.meta.env.BASE_URL}Characters/Kagaya_Ubuyashiki/info.html`} class="link">Kagaya
                                                 Ubuyashiki</a>&nbsp;·
-                                            <a href="/Characters/Amane_Ubuyashiki/info.html" class="link">Amane
+                                            <a href={`${import.meta.env.BASE_URL}Characters/Amane_Ubuyashiki/info.html`} class="link">Amane
                                                 Ubuyashiki</a>&nbsp;·
-                                            <a href="/Characters/Hinaki_Ubuyashiki/info.html" class="link">Hinaki
+                                            <a href={`${import.meta.env.BASE_URL}Characters/Hinaki_Ubuyashiki/info.html`} class="link">Hinaki
                                                 Ubuyashiki</a>&nbsp;·
-                                            <a href="/Characters/Nichika_Ubuyashiki/info.html" class="link">Nichika
+                                            <a href={`${import.meta.env.BASE_URL}Characters/Nichika_Ubuyashiki/info.html`} class="link">Nichika
                                                 Ubuyashiki</a>&nbsp;·
-                                            <a href="/Characters/Kiriya_Ubuyashiki/info.html" class="link">Kiriya
+                                            <a href={`${import.meta.env.BASE_URL}Characters/Kiriya_Ubuyashiki/info.html`} class="link">Kiriya
                                                 Ubuyashiki</a>&nbsp;·
-                                            <a href="/Characters/Kuina_Ubuyashiki/info.html" class="link">Kuina
+                                            <a href={`${import.meta.env.BASE_URL}Characters/Kuina_Ubuyashiki/info.html`} class="link">Kuina
                                                 Ubuyashiki</a>&nbsp;·
-                                            <a href="/Characters/Kanata_Ubuyashiki/info.html" class="link">Kanata
+                                            <a href={`${import.meta.env.BASE_URL}Characters/Kanata_Ubuyashiki/info.html`} class="link">Kanata
                                                 Ubuyashiki</a>&nbsp;·
-                                            <a href="/Characters/Senri_Ubuyashiki/info.html" class="link">Senri
+                                            <a href={`${import.meta.env.BASE_URL}Characters/Senri_Ubuyashiki/info.html`} class="link">Senri
                                                 Ubuyashiki</a>&nbsp;·
-                                            <a href="/Characters/Akito_Ubuyashiki/info.html" class="link">Akito
+                                            <a href={`${import.meta.env.BASE_URL}Characters/Akito_Ubuyashiki/info.html`} class="link">Akito
                                                 Ubuyashiki</a>
                                         </td>
                                     </tr>
@@ -566,24 +566,24 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
                                             <b>Hashira:</b>
                                         </td>
                                         <td class="nav-table-section-right">
-                                            <a href="/Characters/Giyu_Tomioka/info.html" class="link">Giyu
+                                            <a href={`${import.meta.env.BASE_URL}Characters/Giyu_Tomioka/info.html`} class="link">Giyu
                                                 Tomioka</a>&nbsp;·
-                                            <a href="/Characters/Mitsuri_Kanroji/info.html" class="link">Mitsuri
+                                            <a href={`${import.meta.env.BASE_URL}Characters/Mitsuri_Kanroji/info.html`} class="link">Mitsuri
                                                 Kanroji</a>&nbsp;·
                                             <span class="nav-table-current">Obanai Iguro</span>&nbsp;·
-                                            <a href="/Characters/Sanemi_Shinazugawa/info.html" class="link">Sanemi
+                                            <a href={`${import.meta.env.BASE_URL}Characters/Sanemi_Shinazugawa/info.html`} class="link">Sanemi
                                                 Shinazugawa</a>&nbsp;·
-                                            <a href="/Characters/Gyomei_Himejima/info.html" class="link">Gyomei
+                                            <a href={`${import.meta.env.BASE_URL}Characters/Gyomei_Himejima/info.html`} class="link">Gyomei
                                                 Himejima</a>&nbsp;·
-                                            <a href="/Characters/Kyojuro_Rengoku/info.html" class="link">Kyojuro
+                                            <a href={`${import.meta.env.BASE_URL}Characters/Kyojuro_Rengoku/info.html`} class="link">Kyojuro
                                                 Rengoku</a>&nbsp;·
-                                            <a href="/Characters/Tengen_Uzui/info.html" class="link">Tengen
+                                            <a href={`${import.meta.env.BASE_URL}Characters/Tengen_Uzui/info.html`} class="link">Tengen
                                                 Uzui</a>&nbsp;·
-                                            <a href="/Characters/Muichiro_Tokito/info.html" class="link">Muichiro
+                                            <a href={`${import.meta.env.BASE_URL}Characters/Muichiro_Tokito/info.html`} class="link">Muichiro
                                                 Tokito</a>&nbsp;·
-                                            <a href="/Characters/Shinobu_Kocho/info.html" class="link">Shinobu
+                                            <a href={`${import.meta.env.BASE_URL}Characters/Shinobu_Kocho/info.html`} class="link">Shinobu
                                                 Kocho</a>·
-                                            <a href="/Characters/Kanae_Kocho/info.html" class="link">Kanae Kocho</a>·
+                                            <a href={`${import.meta.env.BASE_URL}Characters/Kanae_Kocho/info.html`} class="link">Kanae Kocho</a>·
                                             <a href="sakonji.html" class="link">Sakonji Urokodaki</a>·
                                             <a href="jigoro.html" class="link">Jigoro Kuwajima</a>·
                                             <a href="shinjuro.html" class="link">Shinjuro Rengoku</a>
@@ -595,10 +595,10 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
                                         </td>
                                         <td class="nav-table-section-right">
                                             <a href="" class="link">Tanjiro Kamado</a>&nbsp;·
-                                            <a href="/zenitzu.html" class="link">Zenitsu Agatsuma</a>&nbsp;·
-                                            <a href="/inosuke copy.html" class="link">Inosuke Hashibira</a>&nbsp;·
-                                            <a href="/genya.html" class="link">Genya Shinazugawa</a>&nbsp;·
-                                            <a href="/kanao.html" class="link">Kanao Tsuyuri</a>&nbsp;·
+                                            <a href={`${import.meta.env.BASE_URL}zenitzu.html`} class="link">Zenitsu Agatsuma</a>&nbsp;·
+                                            <a href={`${import.meta.env.BASE_URL}inosuke copy.html`} class="link">Inosuke Hashibira</a>&nbsp;·
+                                            <a href={`${import.meta.env.BASE_URL}genya.html`} class="link">Genya Shinazugawa</a>&nbsp;·
+                                            <a href={`${import.meta.env.BASE_URL}kanao.html`} class="link">Kanao Tsuyuri</a>&nbsp;·
                                             <a href="murata.html" class="link">Murata</a>&nbsp;·
                                             <a href="ozaki.html" class="link">Ozaki</a>&nbsp;·
                                             <a href="masachika.html" class="link">Masachika Kumeno</a>&nbsp;·
@@ -661,7 +661,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
                                         </td>
                                         <td class="nav-table-section-right">
                                             <a href="muzan.html" class="link">Muzan Kibutsuji</a>&nbsp;·
-                                            <a href="/nezuko.html" class="link">Nezuko Kamado</a>&nbsp;·
+                                            <a href={`${import.meta.env.BASE_URL}nezuko.html`} class="link">Nezuko Kamado</a>&nbsp;·
                                             <a href="temple_demon.html" class="link">Temple Demon</a>&nbsp;·
                                             <a href="hand_demon.html" class="link">Hand Demon</a>&nbsp;·
                                             <a href="swamp_demon.html" class="link">Swamp Demon</a>&nbsp;·
@@ -854,6 +854,6 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
             </table>
         </div>
 
-  <script slot="scripts" src="/javascripts/lightbox_modal.js" is:inline></script>
-  <script slot="scripts" src="/javascripts/character_navigation.js" is:inline></script>
+  <script slot="scripts" src={`${import.meta.env.BASE_URL}javascripts/lightbox_modal.js`} is:inline></script>
+  <script slot="scripts" src={`${import.meta.env.BASE_URL}javascripts/character_navigation.js`} is:inline></script>
 </BaseLayout>

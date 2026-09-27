@@ -21,7 +21,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                     <div class="tabs is-current">
                         <figure class="image">
                             <a id="expImg" href="https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/4/4d/Nezuko_anime.png/revision/latest?cb=20211119014953" target="_blank">
-                                <img id="curImg" src="/images/nezuko.webp" />
+                                <img id="curImg" src={`${import.meta.env.BASE_URL}images/nezuko.webp`} />
                             </a>
                         </figure>
                     </div>
@@ -114,7 +114,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                             <br>
                             <a href="inosuke copy.html" class="link">Inosuke Hashibira</a>
                             <br>
-                            <a href="/wiki/zenitsu.html" class="link">Zenitsu Agatsuma</a>
+                            <a href={`${import.meta.env.BASE_URL}wiki/zenitsu.html`} class="link">Zenitsu Agatsuma</a>
                         </div>
                     </div>
                 </section>
@@ -404,7 +404,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                     <div style="height:187px;">
                         <div style="position:relative; height:150px; width:185px; top:35px;">
                             <a href="https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/8/80/Nezuko_human_appearance.png/revision/latest/scale-to-width-down/1000?cb=20190406195610" style="height:120px; width:200px; display:inline-block; position:relative; vertical-align:bottom; overflow:hidden;" target="_blank">
-                                <img src="/images/Nezuko_human_appearance.webp" height="113" width="200" style="border:1px solid gray;" class="zoom">
+                                <img src={`${import.meta.env.BASE_URL}images/Nezuko_human_appearance.webp`} height="113" width="200" style="border:1px solid gray;" class="zoom">
                             </a>
                         </div>
                         <small>Nezuko's original appearance as a human.</small>
@@ -416,7 +416,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                     <div style="height:187px;">
                         <div style="position:relative; height:150px; width:185px; top:35.5px;">
                             <a href="https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/3/38/Nezuko_welcomes_Zenitsu_back.png/revision/latest/scale-to-width-down/1000?cb=20240517052152" style="height:113px; width:200px; display:inline-block; position:relative; vertical-align:bottom; overflow:hidden;" target="_blank">
-                                <img src="/images/Nezuko_welcomes_Zenitsu_back.webp" height="113" width="200" style="border:1px solid gray;" class="zoom">
+                                <img src={`${import.meta.env.BASE_URL}images/Nezuko_welcomes_Zenitsu_back.webp`} height="113" width="200" style="border:1px solid gray;" class="zoom">
                             </a>
                         </div>
                         <small>Nezuko's current appearance without her muzzle.</small>
@@ -428,7 +428,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                     <div style="height:187px;">
                         <div style="position:relative; height:150px; width:185px; top:34px;">
                             <a href="https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/0/0b/Nezuko_Advanced_Form_visual_Hinokami_Chronicles.png/revision/latest/scale-to-width-down/1000?cb=20220810180023" style="height:113px; width:200px; display:inline-block; position:relative; vertical-align:bottom; overflow:hidden;" target="_blank">
-                                <img src="/images/Nezuko_Advanced_Form_visual_Hinokami_Chronicles.webp" height="113" width="200" style="border:1px solid gray;" class="zoom">
+                                <img src={`${import.meta.env.BASE_URL}images/Nezuko_Advanced_Form_visual_Hinokami_Chronicles.webp`} height="113" width="200" style="border:1px solid gray;" class="zoom">
                             </a>
                         </div>
                         <small>Nezuko's fully awakened form.</small>
@@ -454,7 +454,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
             <p>
                 <figure class="left-side-anime-pic">
                     <a href="https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/0/0d/Nezuko_patting_Yushiro%27s_head_EP10.png/revision/latest/scale-to-width-down/1000?cb=20200524010655" target="_blank" style="display:inline-block; position:relative; vertical-align:bottom; overflow:hidden;">
-                        <img src="/images/34732dd868dd1c3da7d90841c11cb9d1.jpg" class="figure-img zoom">
+                        <img src={`${import.meta.env.BASE_URL}images/34732dd868dd1c3da7d90841c11cb9d1.jpg`} class="figure-img zoom">
                     </a>
                     <figcaption class="caption">
                         <p>Nezuko's friendly disposition.</p>
@@ -478,7 +478,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
             <p>
                 <figure class="right-side-nezuko-pic">
                     <a href="https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/a/ad/Nezuko_protects_her_brother.png/revision/latest/scale-to-width-down/1000?cb=20190509184131" target="_blank" class="nez-proc1">
-                        <img src="/images/Nezuko_protects_her_brother.webp" class="nez-proc2">
+                        <img src={`${import.meta.env.BASE_URL}images/Nezuko_protects_her_brother.webp`} class="nez-proc2">
                     </a>
                     <figcaption class="nez_protect">
                         <p>Nezuko protecting Tanjiro from Giyu.</p>
@@ -519,7 +519,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
             <p>
                 <figure class="right-side-nezuko-pic2">
                     <a href="https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/1/16/Nezuko_overpowering_Daki.gif/revision/latest?cb=20220117140522" target="_blank" class="nez-fight1">
-                        <img src="/images/Nezuko_overpowering_Daki.webp" class="nez-fight2">
+                        <img src={`${import.meta.env.BASE_URL}images/Nezuko_overpowering_Daki.webp`} class="nez-fight2">
                     </a>
                     <figcaption class="nezuko_fight">
                         <p>Nezuko overpowering Daki, an Upper Rank demon of the Twelve Kizuki.</p>
@@ -598,7 +598,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
             <p>
                 <figure class="left-side-nezuko-pic2">
                     <a href="https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/1/14/Nezuko_reattaches_her_body_parts.gif/revision/latest?cb=20220117140845" target="_blank" class="nez-regen1">
-                        <img src="/images/Nezuko_reattaches_her_body_parts.webp" class="nez-regen2">
+                        <img src={`${import.meta.env.BASE_URL}images/Nezuko_reattaches_her_body_parts.webp`} class="nez-regen2">
                     </a>
                     <figcaption class="nez_regen">
                         <p>Nezuko's instantly reattaching her body parts.</p>
@@ -623,7 +623,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
             <p>
                 <figure class="right-side-nezuko-pic3">
                     <a href="https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/6/67/Nezuko_kicks_demon%27s_head_off.gif/revision/latest?cb=20190714204917" target="_blank" class="nez-strength1">
-                        <img src="/images/Nezuko_kicks_demons_head_off.webp" class="nez-strength2">
+                        <img src={`${import.meta.env.BASE_URL}images/Nezuko_kicks_demons_head_off.webp`} class="nez-strength2">
                     </a>
                     <figcaption class="nezuko_strength">
                         <p>Nezuko kicking the Temple Demon's head off.</p>
@@ -667,7 +667,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
            <p>
                 <figure class="right-side-nezuko-pic4">
                     <a href="https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/2/20/Nezuko_uses_her_Blood_Demon_Art_against_Daki.gif/revision/latest?cb=20220117140424" target="_blank" class="nez-flames1">
-                        <img src="/images/Nezuko_uses_her_Blood_Demon_Art_against_Daki.webp" class="nez-flames2">
+                        <img src={`${import.meta.env.BASE_URL}images/Nezuko_uses_her_Blood_Demon_Art_against_Daki.webp`} class="nez-flames2">
                     </a>
                     <figcaption class="nezuko_flames">
                         <p>Nezuko burning Daki using her Blood Demon Art.</p>
@@ -780,7 +780,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                                         <div style="height:143px;">
                                             <div style="position:relative; height:141px; width:250px;">
                                                 <a href="https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/9/92/Nezuko_using_Blood_Demon_Art_Exploding_Blood.gif/revision/latest/scale-to-width-down/250?cb=20190810183412" style="height:141px; width:250px;" target="_blank">
-                                                    <img src="/images/Nezuko_using_Blood_Demon_Art_Exploding_Blood.webp" style="height:141px; width:250px; border:1px solid gray;" />
+                                                    <img src={`${import.meta.env.BASE_URL}images/Nezuko_using_Blood_Demon_Art_Exploding_Blood.webp`} style="height:141px; width:250px; border:1px solid gray;" />
                                                 </a>
                                             </div>
                                         </div>
@@ -798,7 +798,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                                         <div style="height:252px;">
                                             <div style="position:relative; height:249px; width:160px; top:0.5px;">
                                                 <a href="https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/4/42/Exploding_Blood.png/revision/latest/scale-to-width-down/161?cb=20200411203430" style="height:250px; width:250px;" target="_blank">
-                                                    <img src="/images/Exploding_Blood.webp" style="height:250px; width:160px; border:1px solid gray;" />
+                                                    <img src={`${import.meta.env.BASE_URL}images/Exploding_Blood.webp`} style="height:250px; width:160px; border:1px solid gray;" />
                                                 </a>
                                             </div>
                                         </div>
@@ -816,7 +816,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                                         <div style="height:143px;">
                                             <div style="position:relative; height:139px; width:250px; top:1px;">
                                                 <a href="https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/6/6c/Hinokami_Chronicles_-_Exploding_Blood.gif/revision/latest/scale-to-width-down/250?cb=20240709055529" style="height:139px; width:250px;" target="_blank">
-                                                    <img src="/images/Hinokami_Chronicles_-_Exploding_Blood.webp" height="141" width="250" style="border:1px solid gray;" />
+                                                    <img src={`${import.meta.env.BASE_URL}images/Hinokami_Chronicles_-_Exploding_Blood.webp`} height="141" width="250" style="border:1px solid gray;" />
                                                 </a>
                                             </div>
                                         </div>
@@ -830,7 +830,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                                         <div style="height:143px;">
                                             <div style="position:relative; height:139px; width:250px; top:1px;">
                                                 <a href="https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/d/d2/Hinokami_Chronicles_-_Exploding_Blood_Heel_Bash.gif/revision/latest/scale-to-width-down/250?cb=20240709060305" style="height:139px; width:250px;" target="_blank">
-                                                    <img src="/images/Hinokami_Chronicles_-_Exploding_Blood_Heel_Bash.webp" height="141" width="250" style="border:1px solid gray;" />
+                                                    <img src={`${import.meta.env.BASE_URL}images/Hinokami_Chronicles_-_Exploding_Blood_Heel_Bash.webp`} height="141" width="250" style="border:1px solid gray;" />
                                                 </a>
                                             </div>
                                         </div>
@@ -844,7 +844,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                                         <div style="height:143px;">
                                             <div style="position:relative; height:139px; width:250px; top:1px;">
                                                 <a href="https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/6/67/Hinokami_Chronicles_-_Exploding_Blood_Strike.gif/revision/latest/scale-to-width-down/250?cb=20240709061147" style="height:139px; width:250px;" target="_blank">
-                                                    <img src="/images/Hinokami_Chronicles_-_Exploding_Blood_Strike.webp" height="141" width="250" style="border:1px solid gray;" />
+                                                    <img src={`${import.meta.env.BASE_URL}images/Hinokami_Chronicles_-_Exploding_Blood_Strike.webp`} height="141" width="250" style="border:1px solid gray;" />
                                                 </a>
                                             </div>
                                         </div>
@@ -858,7 +858,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                                         <div style="height:143px;">
                                             <div style="position:relative; height:139px; width:250px; top:1px;">
                                                 <a href="https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/4/4d/Hinokami_Chronicles_-_Exploding_Blood%2C_Rupture.gif/revision/latest/scale-to-width-down/250?cb=20240709060628" style="height:139px; width:250px;" target="_blank">
-                                                    <img src="/images/Hinokami_Chronicles_-_Exploding_Blood_Rupture.webp" height="141" width="250" style="border:1px solid gray;" />
+                                                    <img src={`${import.meta.env.BASE_URL}images/Hinokami_Chronicles_-_Exploding_Blood_Rupture.webp`} height="141" width="250" style="border:1px solid gray;" />
                                                 </a>
                                             </div>
                                         </div>
@@ -872,7 +872,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                                         <div style="height:143px;">
                                             <div style="position:relative; height:139px; width:250px; top:1px;">
                                                 <a href="https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/1/16/Hinokami_Chronicles_-_Crazy_Scratching.gif/revision/latest/scale-to-width-down/250?cb=20240709055114" style="height:139px; width:250px;" target="_blank">
-                                                    <img src="/images/Hinokami_Chronicles_-_Crazy_Scratching.webp" height="141" width="250" style="border:1px solid gray;" />
+                                                    <img src={`${import.meta.env.BASE_URL}images/Hinokami_Chronicles_-_Crazy_Scratching.webp`} height="141" width="250" style="border:1px solid gray;" />
                                                 </a>
                                             </div>
                                         </div>
@@ -886,7 +886,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                                         <div style="height:143px;">
                                             <div style="position:relative; height:139px; width:250px; top:1px;">
                                                 <a href="https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/0/05/Hinokami_Chronicles_-_Heel_Bash.gif/revision/latest/scale-to-width-down/250?cb=20240709055231" style="height:139px; width:250px;" target="_blank">
-                                                    <img src="/images/Hinokami_Chronicles_-_Heel_Bash.webp" height="141" width="250" style="border:1px solid gray;" />
+                                                    <img src={`${import.meta.env.BASE_URL}images/Hinokami_Chronicles_-_Heel_Bash.webp`} height="141" width="250" style="border:1px solid gray;" />
                                                 </a>
                                             </div>
                                         </div>
@@ -900,7 +900,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                                         <div style="height:143px;">
                                             <div style="position:relative; height:139px; width:250px; top:1px;">
                                                 <a href="https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/b/bb/Hinokami_Chronicles_-_Flying_Kick.gif/revision/latest/scale-to-width-down/250?cb=20240709055327" style="height:139px; width:250px;" target="_blank">
-                                                    <img src="/images/Hinokami_Chronicles_-_Flying_Kick.webp" height="141" width="250" style="border:1px solid gray;" />
+                                                    <img src={`${import.meta.env.BASE_URL}images/Hinokami_Chronicles_-_Flying_Kick.webp`} height="141" width="250" style="border:1px solid gray;" />
                                                 </a>
                                             </div>
                                         </div>
@@ -914,7 +914,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                                         <div style="height:143px;">
                                             <div style="position:relative; height:139px; width:250px; top:1px;">
                                                 <a href="https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/3/3f/Hinokami_Chronicles_-_Alt_Flying_Kick.gif/revision/latest/scale-to-width-down/250?cb=20240709061030" style="height:139px; width:250px;" target="_blank">
-                                                    <img src="/images/Hinokami_Chronicles_-_Alt_Flying_Kick.webp" height="141" width="250" style="border:1px solid gray;" />
+                                                    <img src={`${import.meta.env.BASE_URL}images/Hinokami_Chronicles_-_Alt_Flying_Kick.webp`} height="141" width="250" style="border:1px solid gray;" />
                                                 </a>
                                             </div>
                                         </div>
@@ -928,7 +928,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                                         <div style="height:143px;">
                                             <div style="position:relative; height:139px; width:250px; top:1px;">
                                                 <a href="https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/9/9e/Hinokami_Chronicles_-_Nails_of_Fury.gif/revision/latest/scale-to-width-down/250?cb=20240709055420" style="height:139px; width:250px;" target="_blank">
-                                                    <img src="/images/Hinokami_Chronicles_-_Nails_of_Fury.webp" height="141" width="250" style="border:1px solid gray;" />
+                                                    <img src={`${import.meta.env.BASE_URL}images/Hinokami_Chronicles_-_Nails_of_Fury.webp`} height="141" width="250" style="border:1px solid gray;" />
                                                 </a>
                                             </div>
                                         </div>
@@ -942,7 +942,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                                         <div style="height:143px;">
                                             <div style="position:relative; height:139px; width:250px; top:1px;">
                                                 <a href="https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/4/4d/Hinokami_Chronicles_-_Spin_Kick.gif/revision/latest/scale-to-width-down/250?cb=20240709055707" style="height:139px; width:250px;" target="_blank">
-                                                    <img src="/images/Hinokami_Chronicles_-_Spin_Kick.webp" height="141" width="250" style="border:1px solid gray;" />
+                                                    <img src={`${import.meta.env.BASE_URL}images/Hinokami_Chronicles_-_Spin_Kick.webp`} height="141" width="250" style="border:1px solid gray;" />
                                                 </a>
                                             </div>
                                         </div>
@@ -956,7 +956,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                                         <div style="height:143px;">
                                             <div style="position:relative; height:139px; width:250px; top:1px;">
                                                 <a href="https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/d/d1/Hinokami_Chronicles_-_Frenzied_Kicks.gif/revision/latest/scale-to-width-down/250?cb=20240709055914" style="height:139px; width:250px;" target="_blank">
-                                                    <img src="/images/Hinokami_Chronicles_-_Frenzied_Kicks.webp" height="141" width="250" style="border:1px solid gray;" />
+                                                    <img src={`${import.meta.env.BASE_URL}images/Hinokami_Chronicles_-_Frenzied_Kicks.webp`} height="141" width="250" style="border:1px solid gray;" />
                                                 </a>
                                             </div>
                                         </div>
@@ -970,7 +970,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                                         <div style="height:143px;">
                                             <div style="position:relative; height:139px; width:250px; top:1px;">
                                                 <a href="https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/7/79/Hinokami_Chronicles_-_Drop_Kick.gif/revision/latest/scale-to-width-down/250?cb=20240709060047" style="height:139px; width:250px;" target="_blank">
-                                                    <img src="/images/Hinokami_Chronicles_-_Drop_Kick.webp" height="141" width="250" style="border:1px solid gray;" />
+                                                    <img src={`${import.meta.env.BASE_URL}images/Hinokami_Chronicles_-_Drop_Kick.webp`} height="141" width="250" style="border:1px solid gray;" />
                                                 </a>
                                             </div>
                                         </div>
@@ -984,7 +984,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                                         <div style="height:143px;">
                                             <div style="position:relative; height:139px; width:250px; top:1px;">
                                                 <a href="https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/7/75/Hinokami_Chronicles_-_Fiery_Slash.gif/revision/latest/scale-to-width-down/250?cb=20240709060213" style="height:139px; width:250px;" target="_blank">
-                                                    <img src="/images/Hinokami_Chronicles_-_Fiery_Slash.webp" height="141" width="250" style="border:1px solid gray;" />
+                                                    <img src={`${import.meta.env.BASE_URL}images/Hinokami_Chronicles_-_Fiery_Slash.webp`} height="141" width="250" style="border:1px solid gray;" />
                                                 </a>
                                             </div>
                                         </div>
@@ -1608,5 +1608,5 @@ import BaseLayout from '../layouts/BaseLayout.astro';
            <br>
         </div>
 
-  <script slot="scripts" src="/javascripts/nezuko.js" is:inline></script>
+  <script slot="scripts" src={`${import.meta.env.BASE_URL}javascripts/nezuko.js`} is:inline></script>
 </BaseLayout>

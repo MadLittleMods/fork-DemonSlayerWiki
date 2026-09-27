@@ -22,11 +22,19 @@ jobs:
         uses: actions/checkout@v7
       - name: Install, build, and upload your site
         uses: withastro/action@v6
-        # with:
+        with:
+          # `site`/`base` are deliberately absent from astro.config.mjs so that
+          # local development serves from the root. They are supplied only here,
+          # to publish under the GitHub Pages project path.
+          #
+          # The trailing slash on `--base` is load-bearing: pages join their
+          # URLs as `${import.meta.env.BASE_URL}images/foo.webp`, and Astro
+          # passes the value through as written. Without it the base runs
+          # straight into the path -- `/fork-DemonSlayerWikiimages/foo.webp`.
+          build-cmd: npm run build -- --site https://madlittlemods.github.io --base /fork-DemonSlayerWiki/
           # path: . # The root location of your Astro project inside the repository. (optional)
           # node-version: 24 # The specific version of Node that should be used to build your site. Defaults to 24. (optional)
           # package-manager: pnpm@latest # The Node package manager that should be used to install dependencies and build your site. Automatically detected based on your lockfile. (optional)
-          # build-cmd: pnpm run build # The command to run to build your site. Runs the package build script/task by default. (optional)
         # env:
           # PUBLIC_POKEAPI: 'https://pokeapi.co/api/v2' # Use single quotation marks for the variable value. (optional)
 

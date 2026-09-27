@@ -1,19 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Demon Slayer Wiki: Home Page</title>
-    <link rel="stylesheet" href="stylesheets/styles.css" />
-</head>
-<body>
-    <div class="navbar">
-        <a href="index.html"><img src="images/Demon-Slayer-Logo.png" alt="Demon Slayer Logo" class="fiximg" /></a>
-        <a href="index.html" class="nav-item">Home</a>
-        <a href="characters.html" class="nav-item">Characters</a>
-        <a href="#" class="nav-item">World</a>
-    </div>
-    <div class="main-container">
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Inosuke Hashibira">
+<div class="main-container">
         <div class="left-side-text">
             <br>
             <table class="quote">
@@ -120,7 +110,7 @@
                 <div class="tabs is-current">
                     <figure class="image">
                         <a id="expImg" href="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/48265441-add4-48b6-99ce-fb71117c63bb/dfw9luz-e8b791b7-a323-408c-86a3-be868e3352ab.png/v1/fit/w_806,h_1051/inosuke_hashibira_png_by_zelrom_dfw9luz-414w-2x.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA1MSIsInBhdGgiOiJcL2ZcLzQ4MjY1NDQxLWFkZDQtNDhiNi05OWNlLWZiNzExMTdjNjNiYlwvZGZ3OWx1ei1lOGI3OTFiNy1hMzIzLTQwOGMtODZhMy1iZTg2OGUzMzUyYWIucG5nIiwid2lkdGgiOiI8PTgwNiJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.EcJqGSbdbijOlmr89xNjHhvc_Dw3AYHRrFGTmQh3NdU" target="_blank">
-                            <img id="curImg" src="images/inosuke.png" />
+                            <img id="curImg" src="/images/inosuke.png" />
                         </a>
                     </figure>
                 </div>
@@ -222,7 +212,8 @@
             </section>
         </div>
     </div>
-    <script>
+
+  <script slot="scripts" is:inline>
         const curImg = document.getElementById('curImg');
         const type = document.getElementById('type');
         const secType = document.getElementById('secType');
@@ -241,6 +232,5 @@
             type.style.color = "white";
             expImg.href = "https://i.pinimg.com/originals/f3/5f/97/f35f9779956640b6837401f2ba19b5ad.png"
         };
-    </script>
-</body>
-</html>
+  </script>
+</BaseLayout>
